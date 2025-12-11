@@ -3,6 +3,15 @@ import { Article } from '../../types';
 import { hsbcTravelOneArticle } from './hsbc-travelone';
 import { entryLevelGuideArticle } from './entry-level-guide';
 import { masterCreditCardsGuideArticle } from './master-credit-cards-guide';
+import { hdfcInfiniaArticle } from './hdfc-infinia';
+import { standardCharteredUltimateArticle } from './standard-chartered-ultimate';
+import { amexPlatinumChargeArticle } from './amex-platinum-charge';
+import { iciciBmeraldeprivateArticle } from './icici-emeralde-private';
+import { yesBankMarqueeArticle } from './yes-bank-marquee';
+import { hdfcBizBlackArticle } from './hdfc-bizblack';
+import { rblWorldSafariArticle } from './rbl-world-safari';
+import { hdfcMarriottBonvoyArticle } from './hdfc-marriott-bonvoy';
+import { amexPlatinumTravelArticle } from './amex-platinum-travel';
 
 // Helper to generate placeholder content
 const generateContent = (topic: string) => `
@@ -38,6 +47,15 @@ const generateContent = (topic: string) => `
 export const creditCardsArticles: Article[] = [
   masterCreditCardsGuideArticle,
   axisMagnusBurgundyArticle,
+  hdfcInfiniaArticle,
+  standardCharteredUltimateArticle,
+  amexPlatinumChargeArticle,
+  iciciBmeraldeprivateArticle,
+  yesBankMarqueeArticle,
+  hdfcBizBlackArticle,
+  rblWorldSafariArticle,
+  hdfcMarriottBonvoyArticle,
+  amexPlatinumTravelArticle,
   hsbcTravelOneArticle,
   entryLevelGuideArticle,
   {
