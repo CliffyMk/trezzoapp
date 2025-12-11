@@ -1,5 +1,8 @@
 import { axisMagnusBurgundyArticle } from './axis-magnus-burgundy';
 import { Article } from '../../types';
+import { hsbcTravelOneArticle } from './hsbc-travelone';
+import { entryLevelGuideArticle } from './entry-level-guide';
+import { masterCreditCardsGuideArticle } from './master-credit-cards-guide';
 
 // Helper to generate placeholder content
 const generateContent = (topic: string) => `
@@ -33,7 +36,10 @@ const generateContent = (topic: string) => `
 `;
 
 export const creditCardsArticles: Article[] = [
+  masterCreditCardsGuideArticle,
   axisMagnusBurgundyArticle,
+  hsbcTravelOneArticle,
+  entryLevelGuideArticle,
   {
     id: 'cc-sapphire-reserve',
     title: 'The Ultimate Guide to Premium Travel Cards',

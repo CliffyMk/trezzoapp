@@ -63,7 +63,7 @@ const CategoryPage = () => {
       </div>
 
       {/* Content Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
         {category.articles.map(article => (
           <ArticleCard key={article.id} article={article} categoryId={category.id} />
         ))}
@@ -226,7 +226,7 @@ const HomePage = () => {
            <Link to="/category/credit-cards" className="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-gold-500 transition-colors">View All</Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {latestArticles.map((item, idx) => (
              item.art && item.cat ? (
               <ArticleCard key={idx} article={item.art} categoryId={item.cat.id} />
