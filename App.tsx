@@ -1,9 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route, Navigate, useParams, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate, useParams, Link, useLocation } from 'react-router-dom';
 import Layout from './components/Layout';
 import ArticleCard from './components/ArticleCard';
 import Loader from './components/Loader';
 import { CATEGORIES } from './constants';
+
+// Component to handle scroll-to-top on route changes
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 import { 
   ArrowLeft, Clock, Calendar, Tag, Share2, Globe, Sparkles, TrendingUp, ShieldCheck, 
   ArrowRight, ArrowUpRight, Award, Users, Home,
@@ -352,6 +363,7 @@ function App() {
       */}
       <div className={`transition-opacity duration-1000 delay-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
         <HashRouter>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<HomePage />} />

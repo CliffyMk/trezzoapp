@@ -499,251 +499,328 @@ export const hdfcBizBlackArticle: Article = {
 };
 
 
-## Base Rewards Structure
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Reward Structure & Earning Potential</h3>
 
-| Category | Rate | Points Per ₹150 | Effective Return |
-|----------|------|-----------------|-----------------|
-| Regular Spends | 1X | 5 RP | 3.3% |
-| Accelerated (5X) | 5X | 25 RP | 16.5% |
-
-<div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 mb-6 dark:from-purple-700 dark:to-pink-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Regular Rewards</h3>
-    <ul class="space-y-2 text-sm">
-      <li>✓ <strong>3.3% on regular spends</strong> - Flight/Hotel redemptions</li>
-      <li>✓ Reward points valid for 3 years</li>
-      <li>✓ Amazon Pay Voucher available at 0.70 INR per point</li>
-      <li>⚠️ Excluded: Insurance, Utilities, Fuel</li>
-    </ul>
+  <div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 mb-6 dark:from-purple-700 dark:to-pink-700">
+    <div class="text-white">
+      <h4 class="text-lg font-semibold mb-4">Regular Rewards</h4>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-3"><span class="text-xl mt-1">✓</span> <span><strong>3.3% on regular spends</strong> - Flight/Hotel redemptions</span></li>
+        <li class="flex items-start gap-3"><span class="text-xl mt-1">✓</span> <span>Reward points valid for 3 years</span></li>
+        <li class="flex items-start gap-3"><span class="text-xl mt-1">✓</span> <span>Amazon Pay Voucher available at 0.70 INR per point</span></li>
+        <li class="flex items-start gap-3"><span class="text-xl mt-1">✓</span> <span>Points per ₹150: 5 RP on regular spends</span></li>
+      </ul>
+    </div>
   </div>
-</div>
 
-## 5X Rewards - The Game Changer
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">5X Accelerated Rewards - The Game Changer</h3>
 
-This is the USP of the BizBlack card. You get **5X bonus points** on specific business spends:
+  <p class="text-slate-700 dark:text-slate-300 mb-4">This is the USP of the BizBlack card—you get <strong>5X bonus points</strong> on specific business spends, delivering up to <strong>16.5% effective return</strong>:</p>
 
-<div class="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg p-6 mb-6 dark:from-blue-700 dark:to-cyan-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">5X Reward Points Categories</h3>
-    <div class="space-y-3">
-      <div>
-        <h4 class="font-semibold">1. Income Tax Payments</h4>
-        <p class="text-sm">On Income Tax portal - Advance Tax & TDS</p>
-      </div>
-      <div>
-        <h4 class="font-semibold">2. GST Payments</h4>
-        <p class="text-sm">Direct on GST portal (1% convenience fee applies)</p>
-      </div>
-      <div>
-        <h4 class="font-semibold">3. PayZapp Bill Payments</h4>
-        <p class="text-sm">Utility & other bill payments via HDFC PayZapp app</p>
-      </div>
-      <div>
-        <h4 class="font-semibold">4. SmartPay Auto-Debit</h4>
-        <p class="text-sm">Utility bills set up on auto-debit</p>
-      </div>
-      <div>
-        <h4 class="font-semibold">5. Business Payments</h4>
-        <p class="text-sm">Other business spends via Nuclei payment gateway</p>
+  <div class="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg p-6 mb-6 dark:from-blue-700 dark:to-cyan-700">
+    <div class="text-white">
+      <h4 class="text-lg font-semibold mb-4">5X Reward Points Categories</h4>
+      <div class="space-y-3">
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold mb-1">1. Income Tax Payments</p>
+          <p class="text-sm">On Income Tax portal - Advance Tax & TDS (~0.72% convenience fee)</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold mb-1">2. GST Payments</p>
+          <p class="text-sm">Direct on GST portal (~1% convenience fee, state-dependent)</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold mb-1">3. PayZapp Bill Payments</p>
+          <p class="text-sm">Utility & business bill payments via HDFC PayZapp app</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold mb-1">4. SmartPay Auto-Debit</p>
+          <p class="text-sm">Utility bills set up on auto-debit with bank account</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold mb-1">5. Business Payments</p>
+          <p class="text-sm">Other business spends via Nuclei payment gateway</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-**Effective Reward Rate with 5X:** 16.5% (or 3.3% after deducting 1% convenience fee on certain payments)
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3">5X Rewards Caps</h4>
+      <ul class="text-slate-700 dark:text-slate-300 text-sm space-y-2">
+        <li>• <strong>Minimum spend:</strong> ₹50,000 per statement</li>
+        <li>• <strong>Monthly cap:</strong> 7,500 RP (~₹56,250)</li>
+        <li>• <strong>Beyond cap:</strong> 1X rate applies</li>
+        <li>• <strong>Total earning:</strong> 1.5L RP per cycle max</li>
+      </ul>
+    </div>
 
-### 5X Rewards Caps
-
-| Aspect | Limit |
-|--------|-------|
-| Minimum Spend | ₹50,000 per statement cycle |
-| Monthly Cap | 7,500 RP per statement cycle (~₹56,250 equivalent) |
-| Earnings Beyond Cap | 1X rate applies (uncapped) |
-
-### Income Tax Calculation Example
-
-**Monthly Tax Payment: ₹50,000**
-- 5X Rewards: 7,500 RP (capped)
-- 1X on remaining spend: Regular points
-- Convenience Fee: ~0.72% + GST
-- **Net Effective Return: ~2.3% after fees (still excellent)**
-
-## Milestone Rewards - Additional Benefits
-
-<div class="bg-gradient-to-r from-green-500 to-teal-500 rounded-lg p-6 mb-6 dark:from-green-700 dark:to-teal-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Annual Milestone Benefits</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹5 Lakhs</strong></td>
-          <td class="py-2">₹5,000 voucher (1%)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹10 Lakhs</strong></td>
-          <td class="py-2">₹5,000 voucher (1%)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹15 Lakhs</strong></td>
-          <td class="py-2">₹5,000 voucher (1%)</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>₹20 Lakhs</strong></td>
-          <td class="py-2">₹5,000 voucher (1%)</td>
-        </tr>
-      </tbody>
-    </table>
-    <p class="mt-3 text-xs">Options: SmartBuy Flight/Taj Stay vouchers</p>
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3">Effective Returns</h4>
+      <ul class="text-slate-700 dark:text-slate-300 text-sm space-y-2">
+        <li>• <strong>5X bonus rate:</strong> 16.5% gross</li>
+        <li>• <strong>After 0.72% tax fee:</strong> ~15.78%</li>
+        <li>• <strong>Regular spends:</strong> 3.3% base</li>
+        <li>• <strong>Net gain:</strong> Among highest in India</li>
+      </ul>
+    </div>
   </div>
-</div>
 
-**Combined Reward Rate:** Up to 4.3% (3.3% base + 1% milestone) when you hit ₹20L annual spend.
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Milestone Rewards & Annual Benefits</h3>
 
-## Lounge & Lifestyle Benefits
-
-### Airport Lounge Access
-
-| Access Type | Details |
-|-------------|---------|
-| Domestic Lounge | Diners Club - Unlimited |
-| International Lounge | Diners Club - Unlimited |
-| Card Requirement | Must be active (monthly usage) |
-| Add-on Cards | Full access for all card members |
-
-### Golf Privileges
-
-- **6 Complimentary Games per Quarter** (24 per year)
-- **20 Domestic Golf Courses**
-- **140 International Golf Courses**
-- Note: Lessons not included (unlike premium cards)
-
-### 55-Day Credit Period
-
-The card comes with an extended 55-day credit period, which is 2+ weeks longer than standard personal credit cards.
-
-## Restrictions on Rewards
-
-<div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg p-6 mb-6 dark:from-orange-700 dark:to-red-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Important Caps & Restrictions</h3>
-    <ul class="space-y-2 text-sm">
-      <li>📊 <strong>Redemption Cap:</strong> 70% from points, 30% must pay by card</li>
-      <li>📋 <strong>Category Caps:</strong> Insurance 5,000 RP/day, Grocery 2,000 RP/month</li>
-      <li>📈 <strong>Total Earning Cap:</strong> 1.5L RP per statement cycle</li>
-      <li>💳 <strong>Monthly Redemption:</strong> Max 75,000 points per calendar month</li>
-    </ul>
+  <div class="bg-gradient-to-r from-green-500 to-teal-500 rounded-lg p-6 mb-6 dark:from-green-700 dark:to-teal-700">
+    <div class="text-white">
+      <h4 class="text-lg font-semibold mb-4">Annual Milestone Rewards</h4>
+      <table class="w-full text-sm">
+        <tbody>
+          <tr class="border-b border-white/30">
+            <td class="py-2"><strong>₹5 Lakhs Spend</strong></td>
+            <td class="py-2 text-right">₹5,000 voucher (1%)</td>
+          </tr>
+          <tr class="border-b border-white/30">
+            <td class="py-2"><strong>₹10 Lakhs Spend</strong></td>
+            <td class="py-2 text-right">₹5,000 voucher (1%)</td>
+          </tr>
+          <tr class="border-b border-white/30">
+            <td class="py-2"><strong>₹15 Lakhs Spend</strong></td>
+            <td class="py-2 text-right">₹5,000 voucher (1%)</td>
+          </tr>
+          <tr>
+            <td class="py-2"><strong>₹20 Lakhs Spend</strong></td>
+            <td class="py-2 text-right">₹5,000 voucher (1%)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="mt-3 text-sm">Options: SmartBuy Flight Vouchers, Taj Stay, MakeMyTrip, or ITC Vouchers. Up to ₹20,000 per year. <strong>Combined rate: 4.3% (3.3% base + 1% milestone)</strong></p>
+    </div>
   </div>
-</div>
 
-## Forex Markup & International Benefits
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Travel & Lifestyle Benefits</h3>
 
-- **Forex Markup Fee:** 2%+GST
-- **Diners Club Platform:** Generally has good international acceptance
-- **Concern:** Diners acceptance can be an issue at smaller merchants in some countries
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3">Airport Lounge Access</h4>
+      <ul class="text-slate-700 dark:text-slate-300 text-sm space-y-2">
+        <li>• <strong>Domestic:</strong> Unlimited (Diners Club network)</li>
+        <li>• <strong>International:</strong> Unlimited (Diners Club network)</li>
+        <li>• <strong>Add-on cards:</strong> Full access for all members</li>
+        <li>• <strong>Requirement:</strong> Active card usage (monthly)</li>
+      </ul>
+    </div>
 
-## Devaluation Meter
-
-⚠️ **Risk: MEDIUM**
-
-**Observations:**
-- 5X bonus points on PayZapp may face "correction" (increase in minimum spend threshold)
-- Recent limit increases on 5X rewards cap suggest possible future modifications
-- Base rewards structure appears more stable with capping in place
-
-Despite the risk, the card's value proposition remains strong due to the tax payment benefits.
-
-## Is the BizBlack Card Really Free?
-
-<div class="bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg p-6 mb-6 dark:from-indigo-700 dark:to-purple-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Cost Analysis for New Applicants</h3>
-    <p class="mb-3"><strong>Scenario: ₹50K/month Tax Payment + Other Spends</strong></p>
-    <ul class="space-y-2 text-sm">
-      <li>✓ Joining Fee Waiver: ₹1.5L in 90 days (easily achievable with tax payments)</li>
-      <li>✓ Welcome Gift: ₹5,000 Taj Voucher + Club Marriott</li>
-      <li>✓ Year 1 Tax Benefits: 5X on ₹50K/month = ₹36,000+ in rewards value</li>
-      <li>✓ <strong>Effectively FREE for first year, with profit of ₹20K+</strong></li>
-    </ul>
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3">Golf & Lifestyle</h4>
+      <ul class="text-slate-700 dark:text-slate-300 text-sm space-y-2">
+        <li>• <strong>Golf rounds:</strong> 6 per quarter (24/year)</li>
+        <li>• <strong>Domestic courses:</strong> 20 in network</li>
+        <li>• <strong>International:</strong> 140 courses globally</li>
+        <li>• <strong>Credit period:</strong> 55 days interest-free</li>
+      </ul>
+    </div>
   </div>
-</div>
 
-## Eligibility & Application
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Important Restrictions</h3>
 
-### Eligibility Criteria
-
-| Requirement | Details |
-|-------------|---------|
-| ITR (Fresh) | ₹21+ Lakhs p.a. |
-| Existing HDFC CC | Credit limit >₹6 Lakhs |
-| Documents | GST Returns, Bank statements, etc. |
-| Business Type | Sole proprietors, Partnerships, Pvt Ltd (all accepted) |
-
-### How to Apply
-
-1. **Online/Branch:** Apply directly with ITR & business documents
-2. **Existing HDFC Customer:** Upgrade request to RM
-3. **Card-on-Card Basis:** If you have ₹6L+ limit on another HDFC card
-
-## Real User Experience
-
-### Positive Aspects
-- Outstanding value for business owners making regular tax payments
-- The 5X rewards on GST/IT is a genuine game-changer
-- 55-day credit period is advantageous for cash flow
-- Unlimited lounge access for all card members
-- Marriott membership included
-
-### Areas of Concern
-- Diners Club platform has acceptance issues in some regions
-- Payza transactions require specific setup (not all states enabled yet)
-- Customer service inconsistency (as with most HDFC cards)
-- Fee payable upfront (though waivable with spend)
-
-## The Verdict
-
-<div class="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg p-6 mb-6 dark:from-yellow-700 dark:to-orange-700">
-  <div class="text-white">
-    <h3 class="text-2xl font-bold mb-2">CardExpert Rating: 5/5</h3>
-    <p class="text-sm">HDFC Bank BizBlack Credit Card is a heavily loaded business card with sufficient options to deliver exceptional value for business owners making regular tax and bill payments.</p>
+  <div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg p-6 mb-6 dark:from-orange-700 dark:to-red-700">
+    <div class="text-white">
+      <h4 class="text-lg font-semibold mb-4">Earning & Redemption Caps</h4>
+      <ul class="space-y-2 text-sm">
+        <li><strong>📊 Redemption Cap:</strong> 70% from points, 30% must pay by card</li>
+        <li><strong>📋 Category Caps:</strong> Insurance 5,000 RP/day, Grocery 2,000 RP/month</li>
+        <li><strong>📈 Total Earning:</strong> Max 1.5L RP per statement cycle</li>
+        <li><strong>💳 Monthly Redemption:</strong> 75,000 points per calendar month limit</li>
+      </ul>
+    </div>
   </div>
-</div>
 
-**The Verdict:** 
-If your business spends are ₹50,000+ per month on taxes, GST, and payables, the HDFC BizBlack is a MUST-HAVE card. The 5X rewards on tax payments is industry-first and can save you significantly. Even for smaller business owners, the card justifies its cost through milestone benefits and lounge access. The only deterrent is Diners Club acceptance in certain categories, but for business-focused spending, it's minimal concern.
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">International Transactions & Forex</h3>
 
-## Key Takeaways
+  <div class="space-y-4 mb-6">
+    <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border border-red-300 dark:border-red-700/50">
+      <p class="text-slate-700 dark:text-slate-300 text-sm"><strong>Forex Markup Fee:</strong> 2% + GST (2.2% total)</p>
+    </div>
+    <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border border-red-300 dark:border-red-700/50">
+      <p class="text-slate-700 dark:text-slate-300 text-sm"><strong>Base Rewards:</strong> 3.3% + 1% milestone = 4.3%</p>
+    </div>
+    <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border border-red-300 dark:border-red-700/50">
+      <p class="text-slate-700 dark:text-slate-300 text-sm"><strong>Net Gain on International:</strong> 4.3% - 2.2% = 2% net return</p>
+    </div>
+    <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border border-red-300 dark:border-red-700/50">
+      <p class="text-slate-700 dark:text-slate-300 text-sm"><strong>Platform:</strong> Diners Club (good acceptance at premium merchants, limited at smaller outlets)</p>
+    </div>
+  </div>
 
-1. **Tax Payment Rewards:** 5X on IT/GST is industry-first benefit (16.5% effective)
-2. **Joining Fee Waiver:** Easy to achieve with ₹1.5L spend in 90 days
-3. **Annual Savings:** Up to ₹1L saved annually with proper spend management
-4. **Renewal Value:** Fee waiver at ₹7.5L spend makes it LTF for high spenders
-5. **Lounge Access:** Unlimited for all card members and add-ons
-6. **Milestone Benefits:** Up to ₹20K in annual vouchers based on spend
-7. **Credit Period:** 55-day interest-free period benefits cash flow
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Devaluation Risk Assessment</h3>
 
-## Frequently Asked Questions
+  <div class="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg p-6 mb-6 dark:from-yellow-700 dark:to-orange-700">
+    <div class="text-white">
+      <h4 class="text-lg font-semibold mb-3">⚠️ Devaluation Risk: MEDIUM</h4>
+      <ul class="space-y-2 text-sm">
+        <li>• 5X bonus on PayZapp may face corrections soon (spending threshold increase likely)</li>
+        <li>• Recent caps on earnings suggest ongoing benefit modifications</li>
+        <li>• Base 3.3% rewards structure appears more stable with capping</li>
+        <li>• Tax payment core benefit unlikely to change</li>
+      </ul>
+    </div>
+  </div>
 
-**Q: Can self-employed professionals get this card?**
-A: Yes, with ITR showing income >₹21L p.a. or existing HDFC CC limit >₹6L.
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Fee Analysis: Is It Really Free?</h3>
 
-**Q: Are GST payments included in the 5X rewards?**
-A: Yes, directly on GST portal. A 1% convenience fee applies but rewards still outpace it.
+  <div class="bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg p-6 mb-6 dark:from-indigo-700 dark:to-purple-700">
+    <div class="text-white">
+      <h4 class="text-lg font-semibold mb-4">Cost Breakdown for New Applicants</h4>
+      <div class="space-y-3">
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold">Scenario: ₹50,000/month Tax Payment</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="text-sm">✓ <strong>Joining Fee Waiver:</strong> ₹1.5L in 90 days (easily achievable)</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="text-sm">✓ <strong>Welcome Benefit:</strong> ₹5,000 Taj Voucher + Club Marriott</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="text-sm">✓ <strong>Year 1 Tax Rewards:</strong> 5X on ₹50K/month = ₹36,000+ in value</p>
+        </div>
+        <div class="bg-white/10 p-3 rounded">
+          <p class="font-semibold text-lg">✓ <strong>Effectively FREE for first year, with ₹20K+ profit</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-**Q: Does this card have a corporate variant?**
-A: No, this is on personal liability. Corporate variant isn't available yet.
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Eligibility & Application</h3>
 
-**Q: What if I can't hit ₹7.5L for renewal fee waiver?**
-A: You can request retention benefit from customer care, though results vary.
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3">Fresh Applications</h4>
+      <ul class="text-slate-700 dark:text-slate-300 text-sm space-y-2">
+        <li>• ITR: ₹21L+ per annum</li>
+        <li>• Or: ₹30L+ business income (recent rules)</li>
+        <li>• Documents: GST returns, bank statements</li>
+        <li>• Types: Sole prop, partnerships, Pvt Ltd</li>
+      </ul>
+    </div>
 
-**Q: Can I hold both BizBlack and Diners Black?**
-A: Yes, you can have both as separate cards from HDFC.
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3">Existing HDFC Customers</h4>
+      <ul class="text-slate-700 dark:text-slate-300 text-sm space-y-2">
+        <li>• Credit limit: > ₹6 Lakhs required</li>
+        <li>• Upgrade route: Direct from RM</li>
+        <li>• Often: Issued as FYF (First Year Free)</li>
+        <li>• Process: Faster than fresh application</li>
+      </ul>
+    </div>
+  </div>
 
-**Q: Is Diners Club acceptance an issue for business payments?**
-A: For tax portal & PayZapp payments, not at all. For merchant payments, acceptance is good in metro cities.
+  <div class="space-y-4 mb-6">
+    <div class="bg-slate-50 dark:bg-slate-900/50 p-4 rounded-lg border-l-4 border-blue-500">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-2">Online Application</h4>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Apply directly through HDFC website with ITR and business documents. Approval typically within 5-7 days.</p>
+    </div>
 
----
+    <div class="bg-slate-50 dark:bg-slate-900/50 p-4 rounded-lg border-l-4 border-blue-500">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-2">Branch Application</h4>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Apply offline at HDFC branch for faster processing and personal guidance through approval.</p>
+    </div>
 
-*Last Updated: December 2025*
-*Information accurate as of review date. Benefits subject to change by HDFC Bank.*
-`,
+    <div class="bg-slate-50 dark:bg-slate-900/50 p-4 rounded-lg border-l-4 border-blue-500">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-2">Upgrade/Floater</h4>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Most commonly issued as First Year Free on upgrade from another HDFC credit card. No additional documents needed.</p>
+    </div>
+  </div>
+
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">User Experience & Real Feedback</h3>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+    <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-300 dark:border-green-700/50">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3 text-green-600 dark:text-green-400">✓ Strengths</h4>
+      <ul class="space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+        <li>• 5X on taxes is industry-first and game-changing</li>
+        <li>• Outstanding value for ₹50K+ monthly payments</li>
+        <li>• 55-day credit period aids cash flow management</li>
+        <li>• Unlimited lounge access for all members</li>
+        <li>• Marriott membership adds lifestyle value</li>
+      </ul>
+    </div>
+
+    <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg border border-red-300 dark:border-red-700/50">
+      <h4 class="font-semibold text-slate-900 dark:text-white mb-3 text-red-600 dark:text-red-400">✗ Concerns</h4>
+      <ul class="space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+        <li>• Diners Club acceptance issues in some regions</li>
+        <li>• GST credit payment not enabled in all states</li>
+        <li>• Devaluation risk on PayZapp 5X benefit</li>
+        <li>• Convenience fees reduce effective returns</li>
+        <li>• HDFC customer service inconsistency</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Verdict</h3>
+
+  <div class="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg p-6 mb-6 dark:from-yellow-700 dark:to-orange-700">
+    <div class="text-white">
+      <h4 class="text-2xl font-serif font-medium mb-2">Rating: 5/5</h4>
+      <p class="leading-relaxed">HDFC BizBlack is a heavily loaded business card delivering exceptional value for entrepreneurs with regular tax and GST obligations. The 5X rewards on tax payments are industry-first and can save ₹1L+ annually with proper spend management. Even for smaller spenders, milestone benefits and lounge access justify the card. The only concern is Diners Club acceptance in smaller merchant categories, but for business-focused spending, it's minimal.</p>
+    </div>
+  </div>
+
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Key Takeaways</h3>
+
+  <ol class="space-y-3 text-slate-700 dark:text-slate-300 mb-6">
+    <li><strong>1. Industry-First:</strong> 5X rewards on IT/GST is unique globally, delivering 16.5% effective rate</li>
+    <li><strong>2. Fee Strategy:</strong> Get ₹1.5L spend waiver easily with regular tax payments in 90 days</li>
+    <li><strong>3. Annual Savings:</strong> Up to ₹1L saved annually with ₹50K monthly tax/GST payments</li>
+    <li><strong>4. Renewal Value:</strong> Fee waiver at ₹7.5L spend makes it LTF for high spenders</li>
+    <li><strong>5. Lounge Access:</strong> Unlimited for primary + all add-on card members</li>
+    <li><strong>6. Milestone Rewards:</strong> Up to ₹20K annually in vouchers based on spending milestones</li>
+    <li><strong>7. Extended Credit:</strong> 55-day payment window provides superior cash flow management</li>
+    <li><strong>8. Devaluation Watch:</strong> Monitor PayZapp 5X benefit as HDFC may increase minimum spend threshold</li>
+  </ol>
+
+  <h3 class="text-3xl font-serif font-medium text-slate-900 dark:text-white mb-6">Frequently Asked Questions</h3>
+
+  <div class="space-y-4">
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">Can self-employed professionals get this card?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Yes—with ITR showing income >₹21L p.a., or existing HDFC credit card with >₹6L limit. Sole proprietors, partnerships, and private limited companies are all accepted.</p>
+    </div>
+
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">Are GST payments eligible for 5X rewards?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Yes—directly on the GST portal. A ~1% convenience fee applies (varies by state), but rewards still significantly outpace the fee. Currently enabled in 13+ states with more coming.</p>
+    </div>
+
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">What's the convenience fee on tax payments?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Income tax: ~0.72% + GST, GST: ~1% + GST. Despite these fees, net returns after 5X rewards remain among India's best (2.3%+ after fees).</p>
+    </div>
+
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">Can I hold both BizBlack and Diners Black?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Yes—you can hold both as separate cards or BizBlack as a floater card on your Diners Black account. No restrictions on multiple Diners variants.</p>
+    </div>
+
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">Is Diners Club acceptance an issue for business payments?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">For government portals (tax/GST) and PayZapp, no issues at all. For merchant payments, acceptance is strong in metro cities but can be limited in tier-2 cities. Use alongside a Visa/Mastercard for complete coverage.</p>
+    </div>
+
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">When are 5X rewards credited to my account?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">4X bonus points are credited 3-4 days after statement generation. Base 1X points appear immediately with transactions. All points are pooled and can be redeemed after 48 hours.</p>
+    </div>
+
+    <div class="border border-slate-300 dark:border-slate-700 rounded-lg p-4">
+      <h5 class="font-semibold text-slate-900 dark:text-white mb-2">What if I can't hit ₹7.5L for annual renewal fee waiver?</h5>
+      <p class="text-slate-700 dark:text-slate-300 text-sm">Call HDFC 30 days before renewal to request retention offers—usually granted for customers with good payment history. Alternatively, seek upgrade from your RM to another HDFC card or request a floater arrangement.</p>
+    </div>
+  </div>
+
+  <div class="border-t border-slate-300 dark:border-slate-700 mt-8 pt-6 text-center text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest">
+    <p>Last Updated: December 2025</p>
+    <p>Information accurate as of review date. Benefits subject to change by HDFC Bank.</p>
+  </div>
+</div>`,
 };
