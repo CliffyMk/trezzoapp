@@ -9,294 +9,200 @@ export const hdfcMarriottBonvoyArticle: Article = {
   date: '2025-12-11',
   tags: ['credit-card', 'hdfc', 'marriott', 'travel'],
   content: `
-# HDFC Bank Marriott Bonvoy Credit Card: Premium Hotel Card Review
+    <div class="mb-6 p-6 bg-gradient-to-br from-indigo-50 via-blue-50 to-indigo-50 dark:from-slate-800/60 dark:via-indigo-900/30 dark:to-slate-800/60 rounded-xl border border-indigo-200/50 dark:border-indigo-500/30 shadow-lg dark:shadow-xl">
+      <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">HDFC Bank Marriott Bonvoy Credit Card: Elite Hotel Stays & Free Nights</h2>
+      <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
+        The HDFC Bank Marriott Bonvoy Credit Card is a premium co-branded offering for Marriott loyalists, providing exclusive access to Marriott Bonvoy points, complimentary elite status, and valuable Free Night Awards. This card is designed to elevate your hotel experiences, making luxury stays more accessible and rewarding. With its generous welcome and renewal benefits, it's a compelling choice for frequent travelers and hotel enthusiasts.
+      </p>
+    </div>
 
-The HDFC Bank Marriott Bonvoy Credit Card is a premium co-branded travel card launched as a collaboration between HDFC Bank, Marriott International, and Diners Club. It's designed for hotel aficionados who want to accumulate Marriott Bonvoy points and enjoy premium hotel experiences with generous welcome/renewal benefits.
+    <h3 class="text-xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Quick Facts</h3>
+    <div class="mb-6 overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <tbody>
+          <tr><td class="font-semibold">Card Type</td><td>Co-brand Travel Credit Card (Diners Club)</td></tr>
+          <tr><td class="font-semibold">Annual Fee</td><td>₹3,000 + GST</td></tr>
+          <tr><td class="font-semibold">Reward Rate</td><td>0.66% - 2.66% (effective)</td></tr>
+          <tr><td class="font-semibold">Welcome/Renewal Benefit</td><td>1 Free Night Award (up to 15,000 pts)</td></tr>
+          <tr><td class="font-semibold">Elite Status</td><td>Complimentary Silver Elite + 10 Elite Night Credits</td></tr>
+          <tr><td class="font-semibold">Lounge Access</td><td>12 Domestic / 12 International (Priority Pass)</td></tr>
+          <tr><td class="font-semibold">Best For</td><td>Marriott loyalists seeking Free Night Awards & status</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-## Overview
-
-| Attribute | Details |
-|-----------|---------|
-| Card Type | Co-brand Travel Credit Card |
-| Reward Rate | ~2% effective |
-| Annual Fee | ₹3,000 + GST |
-| Best For | Marriott hotel stays & Bonvoy points |
-| USP | Free Night Awards + Elite Status |
-| Network | Diners Club |
-
-The card is positioned as a semi-premium offering that bridges entry-level and super-premium hotel loyalty cards, making Marriott Bonvoy accessible to a broader audience.
-
-## Fee Structure & Welcome Benefits
-
-<div class="bg-gradient-to-r from-emerald-500 to-blue-500 rounded-lg p-6 mb-6 dark:from-emerald-700 dark:to-blue-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Joining & Annual Fees</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Joining Fee</strong></td>
-          <td class="py-2">₹3,000 + GST (₹3,540 total)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Welcome Benefit</strong></td>
-          <td class="py-2">1 Free Night Award (up to 15,000 pts)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Annual Fee</strong></td>
-          <td class="py-2">₹3,000 + GST</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Renewal Benefit</strong></td>
-          <td class="py-2">1 Free Night Award (up to 15,000 pts)</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>Fee Waiver</strong></td>
-          <td class="py-2">Not automatic; request retention</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-**Key Insight:** The Free Night Award (FNA) is valued at ₹7,500+ minimum, easily offsetting the annual fee.
-
-## Rewards Structure
-
-| Category | Rate | Effective Return |
-|----------|------|-----------------|
-| Regular Spends | 2 points per ₹150 | 0.66% |
-| Travel/Dining/Entertainment | 4 points per ₹150 | 1.33% |
-| Marriott Hotels | 8 points per ₹150 | 2.66% |
-
-<div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 mb-6 dark:from-purple-700 dark:to-pink-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Reward Points Calculation</h3>
-    <p class="text-sm mb-3">Point Value: <strong>1 Marriott Bonvoy Point = ₹0.50</strong> (approximately)</p>
-    <ul class="space-y-1 text-sm">
-      <li>• Can vary from ₹0.30 to ₹1.00 based on property & booking</li>
-      <li>• Excluded: Fuel, Wallet loads, Government spends, EMI, Rent</li>
-      <li>• 12-week transfer delay to Marriott account</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Fees & Welcome Benefits</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Joining Fee:</strong> ₹3,000 + GST (₹3,540 total)</li>
+      <li><strong>Welcome Benefit:</strong> 1 Free Night Award (FNA) worth up to 15,000 Marriott Bonvoy Points.</li>
+      <li><strong>Annual Fee:</strong> ₹3,000 + GST</li>
+      <li><strong>Renewal Benefit:</strong> 1 Free Night Award (FNA) worth up to 15,000 Marriott Bonvoy Points.</li>
+      <li><strong>Fee Waiver:</strong> Not automatic, may be granted upon request based on spend profile.</li>
     </ul>
-  </div>
-</div>
+    <div class="p-5 bg-gradient-to-br from-green-50 via-emerald-50 to-green-50 dark:from-green-900/20 dark:via-emerald-900/15 dark:to-green-900/20 rounded-lg border-l-4 border-green-600 dark:border-green-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">💡 Key Insight: Free Night Award Value</p>
+      <p class="text-sm text-slate-700 dark:text-slate-300">
+        Each Free Night Award is valued at ₹7,500+ minimum, easily offsetting the annual fee if utilized. This makes the card effectively free for Marriott loyalists.
+      </p>
+    </div>
 
-### Important Notes on Rewards
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Reward Points Structure</h3>
+    <div class="mb-6 overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <tbody>
+          <tr><td class="font-semibold">Regular Spends</td><td>2 points per ₹150</td><td>0.66% effective return</td></tr>
+          <tr><td class="font-semibold">Travel, Dining, Entertainment</td><td>4 points per ₹150</td><td>1.33% effective return</td></tr>
+          <tr><td class="font-semibold">Marriott Hotels</td><td>8 points per ₹150</td><td>2.66% effective return</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="p-5 bg-gradient-to-br from-purple-50 via-pink-50 to-purple-50 dark:from-purple-900/20 dark:via-pink-900/15 dark:to-purple-900/20 rounded-lg border-l-4 border-purple-500 dark:border-purple-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">📊 Reward Points Calculation & Limitations:</p>
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li><strong>Point Value:</strong> 1 Marriott Bonvoy Point ≈ ₹0.50 (can vary from ₹0.30 to ₹1.00 based on property).</li>
+        <li><strong>Transfer Delay:</strong> Points take up to <strong>12 weeks (3 months)</strong> to reflect in your Marriott Bonvoy account, a significant drawback.</li>
+        <li><strong>Exclusions:</strong> No points on Fuel, Wallet loads, Government spends, EMI, Rent, or utilities.</li>
+        <li><strong>Ongoing Rewards Concern:</strong> Even at Marriott hotels, the 2.66% effective rate is generally lower than what you could achieve with other premium travel cards like Axis Magnus.</li>
+      </ul>
+    </div>
 
-**Points Transfer Delay:** The 12-week (3-month) wait for points to transfer to Marriott Bonvoy is a significant drawback compared to instant transfers on other hotel cards.
-
-**Reward Rate Concern:** Even at Marriott hotels, the 2.66% effective rate is lower than what you'd get on travel cards like Axis Magnus or Amex MRCC.
-
-## The Real Value: Free Night Awards (FNA)
-
-<div class="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg p-6 mb-6 dark:from-blue-700 dark:to-cyan-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Free Night Award Benefits</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>FNA Value</strong></td>
-          <td class="py-2">Up to 15,000 Bonvoy Points</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Frequency</strong></td>
-          <td class="py-2">On welcome + renewal</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Flexibility</strong></td>
-          <td class="py-2">Use remaining points to upgrade</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Fulfillment</strong></td>
-          <td class="py-2">12 weeks after fee clearance</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>Validity</strong></td>
-          <td class="py-2">1 year from issuance</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-**FNA Usage Strategy:** You can combine FNA with your own points. For a 20,000-point property, use 1 FNA (15,000 pts) + 5,000 points from your account.
-
-## Milestone Benefits - Additional Value
-
-<div class="bg-gradient-to-r from-green-500 to-teal-500 rounded-lg p-6 mb-6 dark:from-green-700 dark:to-teal-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Annual Milestone Rewards</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹6 Lakhs</strong></td>
-          <td class="py-2">1 Free Night (1.2% return)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹9 Lakhs</strong></td>
-          <td class="py-2">1 Free Night (1.7% cumulative)</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>₹15 Lakhs</strong></td>
-          <td class="py-2">1 Free Night (1.5% total return)</td>
-        </tr>
-      </tbody>
-    </table>
-    <p class="mt-2 text-xs">Even with milestones, max combined reward rate is ~2%, which is lower than comparable travel cards</p>
-  </div>
-</div>
-
-## Elite Status Benefits
-
-### Silver Elite Status (Complimentary)
-
-- **10 Elite Night Credits:** Count toward Marriott Bonvoy tier (like staying 10 nights)
-- **Priority Late Checkout**
-- **10% Bonus Points** on all Marriott stays
-
-This is valuable as it helps you reach Gold Elite status faster, unlocking better benefits.
-
-## Lounge Access Benefits
-
-<div class="bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg p-6 mb-6 dark:from-indigo-700 dark:to-purple-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Airport Lounge Access</h3>
-    <ul class="space-y-2 text-sm">
-      <li>✓ <strong>12 Domestic Lounge Visits per Year</strong> (no quarterly cap)</li>
-      <li>✓ <strong>12 International Lounge Visits per Year</strong> (via Priority Pass)</li>
-      <li>✓ Direct card access for lounge entry (Diners Club network)</li>
-      <li>✓ Add-on cardholders also eligible for same benefits</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Free Night Awards (FNA) - Maximize Your Stays</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Value:</strong> Each FNA is worth up to 15,000 Marriott Bonvoy Points.</li>
+      <li><strong>Frequency:</strong> One FNA on welcome and one on annual renewal.</li>
+      <li><strong>Flexibility:</strong> FNAs can be combined with your existing Bonvoy points to book higher-category hotels (e.g., a 20,000-point property can be booked with 1 FNA + 5,000 points from your account).</li>
+      <li><strong>Fulfillment:</strong> Credited approximately 60+ days after fee clearance.</li>
+      <li><strong>Validity:</strong> Each FNA is valid for 1 year from issuance.</li>
     </ul>
-  </div>
-</div>
 
-The 12 visits annually with no quarterly cap is a significant advantage compared to cards that limit access per quarter.
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Milestone Benefits</h3>
+    <div class="mb-6 overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <tbody>
+          <tr><td class="font-semibold">₹6 Lakhs Annual Spend</td><td>1 Free Night Award</td><td>~1.2% effective return</td></tr>
+          <tr><td class="font-semibold">₹9 Lakhs Annual Spend</td><td>1 Free Night Award</td><td>~1.7% cumulative return</td></tr>
+          <tr><td class="font-semibold">₹15 Lakhs Annual Spend</td><td>1 Free Night Award</td><td>~1.5% total return</td></tr>
+        </tbody>
+      </table>
+      <p class="text-sm text-slate-700 dark:text-slate-300 mt-3">
+        Even with milestone FNAs, the maximum combined reward rate (including base points) is around 2%, which is generally lower than other comparable premium travel cards for overall spend.
+      </p>
+    </div>
 
-## Golf Privilege
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Elite Status Benefits</h3>
+    <div class="p-5 bg-gradient-to-br from-blue-50 via-cyan-50 to-blue-50 dark:from-blue-900/20 dark:via-cyan-900/15 dark:to-blue-900/20 rounded-lg border-l-4 border-blue-500 dark:border-blue-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">🏆 Complimentary Marriott Bonvoy Silver Elite Status:</p>
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li><strong>10 Elite Night Credits:</strong> These credits count towards achieving higher Marriott Bonvoy tiers faster (equivalent to staying 10 nights).</li>
+        <li><strong>Priority Late Checkout:</strong> Subject to availability.</li>
+        <li><strong>10% Bonus Points:</strong> Earn additional points on all eligible Marriott stays.</li>
+      </ul>
+      <p class="text-sm text-slate-700 dark:text-slate-300 mt-2">
+        This benefit is particularly valuable for accelerating your path to Gold Elite status, which unlocks more significant perks like room upgrades and complimentary breakfast.
+      </p>
+    </div>
 
-- **2 Complimentary Golf Games per Quarter** (8 per year)
-- **2 Complimentary Golf Lessons per Quarter** (8 per year)
-- Booked through HDFC Bank's golf program
-
-## Card Design & Presentation
-
-<div class="bg-gradient-to-r from-pink-500 to-red-500 rounded-lg p-6 mb-6 dark:from-pink-700 dark:to-red-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Design Excellence</h3>
-    <p class="text-sm">The Marriott Bonvoy card features premium aesthetics with sophisticated co-branding. The design quality is among the best from HDFC, with excellent font and logo placement. Not metallic but feels genuinely premium.</p>
-  </div>
-</div>
-
-## The Main Concerns
-
-<div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg p-6 mb-6 dark:from-orange-700 dark:to-red-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Key Drawbacks</h3>
-    <ul class="space-y-2 text-sm">
-      <li>⚠️ <strong>Poor Ongoing Rewards:</strong> 2% effective even at Marriott hotels</li>
-      <li>⚠️ <strong>3-Month Point Delay:</strong> 12 weeks for Bonvoy account transfer</li>
-      <li>⚠️ <strong>Diners Club Issues:</strong> Acceptance problems at some merchants</li>
-      <li>⚠️ <strong>Processing Delays:</strong> Welcome benefits take 60+ days to credit</li>
-      <li>⚠️ <strong>No Fee Waiver:</strong> Annual fee is mandatory; no automatic waiver</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Travel & Lifestyle Benefits</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Domestic Lounge Access:</strong> 12 complimentary visits per year (no quarterly cap, via Diners Club network).</li>
+      <li><strong>International Lounge Access:</strong> 12 complimentary visits per year (via Priority Pass). Add-on cardholders also receive these benefits.</li>
+      <li><strong>Golf Privileges:</strong> 2 complimentary golf games per quarter (8 per year) and 2 complimentary golf lessons per quarter (8 per year), booked through HDFC Bank's golf program.</li>
     </ul>
-  </div>
-</div>
 
-## Eligibility & Application
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Card Design & Aesthetics</h3>
+    <div class="p-5 bg-gradient-to-br from-pink-50 via-red-50 to-pink-50 dark:from-pink-900/20 dark:via-red-900/15 dark:to-pink-900/20 rounded-lg border-l-4 border-pink-500 dark:border-pink-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">💎 Premium Design & Feel:</p>
+      <p class="text-sm text-slate-700 dark:text-slate-300">
+        The HDFC Marriott Bonvoy card features a premium aesthetic with sophisticated co-branding. While not a metal card, its design quality, including font and logo placement, makes it feel genuinely premium and is among the best from HDFC Bank.
+      </p>
+    </div>
 
-### Application Methods
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Main Concerns & Drawbacks</h3>
+    <div class="p-5 bg-gradient-to-br from-orange-50 via-red-50 to-orange-50 dark:from-orange-900/20 dark:via-red-900/15 dark:to-orange-900/20 rounded-lg border-l-4 border-orange-500 dark:border-orange-400/50 mb-6">
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li>⚠️ <strong>Poor Ongoing Rewards:</strong> The effective reward rate of ~2% even at Marriott hotels is disappointing for a premium co-branded card.</li>
+        <li>⚠️ <strong>Significant Point Transfer Delay:</strong> The 12-week wait for Bonvoy points to transfer is a major inconvenience, especially for time-sensitive bookings.</li>
+        <li>⚠️ <strong>Diners Club Acceptance:</strong> While improving, Diners Club cards can still face acceptance issues at some merchants, particularly outside major cities.</li>
+        <li>⚠️ <strong>Slow Benefit Processing:</strong> Welcome benefits and FNAs can take 60+ days to credit, and Elite Night Credits even longer, leading to a frustrating onboarding experience.</li>
+        <li>⚠️ <strong>No Automatic Fee Waiver:</strong> The annual fee is generally mandatory and not automatically waived based on spend.</li>
+      </ul>
+    </div>
 
-1. **Marriott Website:** Direct application
-2. **HDFC Bank Website:** Apply alongside authentication
-3. **Branch/RM Request:** If you're an existing HDFC customer
-
-### Who Gets Approved
-
-- Existing HDFC credit card holders with good standing
-- Salaried professionals with stable income
-- Self-employed with good ITR
-- Membership in Marriott Bonvoy program helps
-
-## Onboarding Experience
-
-**Timeline:**
-- Application to approval: 2-3 days
-- Approval to card delivery: 5-7 days
-- Fee charging: Usually in 3rd month statement
-- FNA credit: 60+ days post-fee payment
-- Elite nights credit: Another 30+ days after FNA
-
-The slow processing can be frustrating for those expecting quick benefit fulfillment.
-
-## Who Should Get This Card?
-
-<div class="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg p-6 mb-6 dark:from-yellow-700 dark:to-orange-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Ideal Candidates</h3>
-    <ul class="space-y-2 text-sm">
-      <li>✅ Marriott Bonvoy members seeking elite status</li>
-      <li>✅ Those 5-10 elite nights away from next tier</li>
-      <li>✅ Frequent Marriott hotel users</li>
-      <li>✅ Looking for premium hotel lounge access</li>
-      <li>✅ Value the welcome/renewal FNA benefits</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Eligibility & Application</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Eligibility:</strong> Existing HDFC credit card holders with good standing, salaried professionals with stable income, or self-employed individuals with a strong ITR. Marriott Bonvoy membership can also be a factor.</li>
+      <li><strong>Application Methods:</strong> Direct application via the Marriott website, HDFC Bank website, or through an existing HDFC relationship manager.</li>
     </ul>
-  </div>
-</div>
+    <div class="p-5 bg-gradient-to-br from-yellow-50 via-orange-50 to-yellow-50 dark:from-yellow-900/20 dark:via-orange-900/15 dark:to-yellow-900/20 rounded-lg border-l-4 border-yellow-600 dark:border-yellow-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">⏳ Onboarding Experience - Be Prepared for Delays:</p>
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li><strong>Application to Approval:</strong> Typically 2-3 days.</li>
+        <li><strong>Approval to Card Delivery:</strong> 5-7 days.</li>
+        <li><strong>Fee Charging:</strong> Usually in the 3rd month statement.</li>
+        <li><strong>FNA Credit:</strong> 60+ days post-fee payment.</li>
+        <li><strong>Elite Night Credits:</strong> Another 30+ days after FNA credit.</li>
+      </ul>
+      <p class="text-sm text-slate-700 dark:text-slate-300 mt-2">
+        The slow processing timeline for benefits can be frustrating for those expecting immediate fulfillment.
+      </p>
+    </div>
 
-## The Verdict
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Who Should Get This Card?</h3>
+    <div class="p-5 bg-gradient-to-br from-green-50 via-emerald-50 to-green-50 dark:from-green-900/20 dark:via-emerald-900/15 dark:to-green-900/20 rounded-lg border-l-4 border-green-600 dark:border-green-400/50 mb-6">
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li>✅ <strong>Marriott Bonvoy Members:</strong> Essential for those actively building or maintaining Marriott Bonvoy elite status.</li>
+        <li>✅ <strong>Elite Status Chasers:</strong> Ideal if you are 5-10 elite nights away from reaching a higher Bonvoy tier.</li>
+        <li>✅ <strong>Frequent Marriott Guests:</strong> If you regularly stay at Marriott properties and can effectively use the Free Night Awards.</li>
+        <li>✅ <strong>Seeking Premium Lounge Access:</strong> The generous domestic and international lounge visits are a significant perk.</li>
+        <li>✅ <strong>Value Free Night Awards:</strong> Those who prioritize the substantial value derived from the welcome and renewal FNAs over ongoing reward rates.</li>
+      </ul>
+    </div>
 
-<div class="bg-gradient-to-r from-pink-500 to-rose-500 rounded-lg p-6 mb-6 dark:from-pink-700 dark:to-rose-700">
-  <div class="text-white">
-    <h3 class="text-2xl font-bold mb-2">CardExpert Rating: 4.5/5</h3>
-    <p class="text-sm">The HDFC Marriott Bonvoy Credit Card offers excellent value for its welcome/renewal benefits, making it ideal for Marriott loyalists despite the mediocre ongoing rewards.</p>
-  </div>
-</div>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">The Verdict</h3>
+    <div class="p-6 bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 dark:from-amber-900/30 dark:via-yellow-900/20 dark:to-orange-900/30 rounded-xl border-2 border-amber-300 dark:border-amber-600/50 shadow-lg dark:shadow-xl mb-6">
+      <p class="text-center text-xl font-serif font-bold mb-3 text-slate-900 dark:text-white">⭐⭐⭐⭐ 4/5</p>
+      <p class="text-sm text-center text-slate-700 dark:text-slate-300 leading-relaxed">
+        The HDFC Bank Marriott Bonvoy Credit Card is a niche but valuable offering. Its strength lies almost entirely in its welcome and renewal Free Night Awards and the complimentary Elite Night Credits, which can be highly profitable for dedicated Marriott loyalists. While the ongoing reward rate and benefit processing times are underwhelming, if you leverage the FNAs and elite status benefits, this card provides exceptional value for its annual fee. It's best seen as a 'benefits card' to hold for the free nights rather than a primary card for all your spending.
+      </p>
+    </div>
 
-**The Verdict:** The card's primary value comes from the Free Night Awards and Elite Night Credits, which can be worth ₹10,000-15,000 annually. However, the ongoing rewards are disappointing, and the 3-month point transfer delay is frustrating. This card is best treated as a "benefits card" that you keep active for the FNA rather than using for everyday spend. For serious Marriott loyalists willing to handle the processing delays, it's a solid acquisition. For casual users, skip it.
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Key Takeaways</h3>
+    <ul class="mb-6 list-decimal ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>High Welcome & Renewal Value:</strong> Each FNA is worth ₹7,500+, easily offsetting the annual fee.</li>
+      <li><strong>Accelerated Elite Status:</strong> 10 Elite Night Credits significantly help in reaching higher Marriott Bonvoy tiers.</li>
+      <li><strong>Generous Lounge Access:</strong> 12 domestic and 12 international lounge visits annually with no quarterly caps.</li>
+      <li><strong>Substantial Processing Delays:</strong> Be prepared for delays of 60-90+ days for benefits to be credited.</li>
+      <li><strong>Weak Ongoing Rewards:</strong> The effective reward rate is low compared to other premium cards.</li>
+      <li><strong>Diners Club Network:</strong> While improving, occasional acceptance issues may arise.</li>
+      <li><strong>Golf Privileges:</strong> Complimentary games and lessons add to the lifestyle benefits.</li>
+    </ul>
 
-## Comparison with Competitors
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Frequently Asked Questions</h3>
+    <div class="space-y-4 mb-6">
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">Is the ₹3,000 annual fee worth it?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Yes, absolutely, if you utilize the Free Night Award, which alone can be worth ₹7,500 or more.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">How long does it take for benefits to be credited?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Welcome FNAs can take 60+ days, and Elite Night Credits typically 90+ days after fee payment. Patience is key.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-slate-300 mb-1">Can I combine a Free Night Award with my existing Bonvoy points?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Yes, you can top-up an FNA with your own points to book a higher-category hotel (e.g., use a 15k FNA for a 20k point stay by adding 5k points).</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">Does this card help towards achieving Marriott Bonvoy lifetime Platinum status?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Yes, the 10 Elite Night Credits, along with actual stay nights, contribute to your Bonvoy lifetime status progression.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">What if I don't use the Free Night Award?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">FNAs expire after 1 year if unused. It's crucial to plan your stay to maximize this benefit, as it represents a significant value.</p>
+      </div>
+    </div>
 
-**vs. Amex MRCC:** MRCC offers better ongoing rewards and instant point transfer
-
-**vs. Axis Magnus:** Magnus has higher rewards (4.5-7.5%) but no hotel co-benefits
-
-**vs. ICICI Emeralde:** Emeralde offers better value with instant benefits delivery
-
-## Key Takeaways
-
-1. **Welcome Value:** FNA (15K pts) = ₹7,500+ value, covers fee
-2. **Annual Renewal:** Consistent FNA means perpetual value
-3. **Elite Nights:** 10 free nights help tier progression
-4. **Lounge Access:** 12 domestic + 12 international annually (no quarterly cap)
-5. **Processing Delays:** 12 weeks for everything is slow for 2025
-6. **Rewards Weakness:** 2% effective rate is too low
-7. **Diners Acceptance:** Can be an issue in some categories
-
-## Frequently Asked Questions
-
-**Q: Is the ₹3,000 annual fee worth it?**
-A: Yes, due to the FNA value (₹7,500+), but only if you use the free night.
-
-**Q: How long does it take to get benefits?**
-A: 60+ days for FNA, 90+ for elite nights - frustratingly slow.
-
-**Q: Can I combine FNA with my Bonvoy points?**
-A: Yes, you can top-up remaining points to use a higher-category hotel.
-
-**Q: Does this card help toward lifetime Platinum?**
-A: The 10 elite nights and stay nights count, yes.
-
-**Q: Is there a metal version?**
-A: Not currently, but if launched, it would likely be worth considering.
-
-**Q: Can I cancel and reapply for another FNA?**
-A: Technically yes, but banks track this and may not re-issue quickly.
-
-**Q: What if I don't use the FNA?**
-A: It expires after 1 year. Not using it is a waste of ₹7,500+ value.
-
----
-
-*Last Updated: December 2025*
-*Information accurate as of review date. Benefits subject to HDFC Bank's policy changes.*
-`,
+    <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
+      <strong>Last Updated:</strong> December 2025 | Information based on HDFC Bank & Marriott Bonvoy official sources | Benefits subject to change by HDFC Bank
+    </p>
+  `,
 };

@@ -9,328 +9,169 @@ export const rblWorldSafariArticle: Article = {
   date: '2025-12-11',
   tags: ['credit-card', 'rbl', 'travel', 'forex'],
   content: `
-# RBL World Safari Credit Card: International Traveler's Guide
-
-RBL Bank's World Safari Credit Card is India's first mainstream retail travel card offering 0% forex markup fees on international transactions. For international travelers making multiple trips annually, this card delivers exceptional value combined with comprehensive travel insurance coverage accepted by embassies worldwide.
-
-## Overview
-
-| Attribute | Details |
-|-----------|---------|
-| Card Type | Travel Credit Card |
-| Reward Rate | 0.5% – 2.5% |
-| Best For | International & travel spends |
-| Annual Fee | ₹3,000 + GST |
-| USP | 0% Forex Markup & Travel Insurance |
-| Network | Mastercard |
-
-The RBL World Safari stands out as one of the first mainstream travel cards in India to offer 0% markup on foreign transactions, making it ideal for frequent international travelers.
-
-## Fee Structure & Welcome Benefits
-
-<div class="bg-gradient-to-r from-emerald-500 to-blue-500 rounded-lg p-6 mb-6 dark:from-emerald-700 dark:to-blue-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Joining & Annual Fees</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Joining Fee</strong></td>
-          <td class="py-2">₹3,000 + GST</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Welcome Benefit</strong></td>
-          <td class="py-2">₹3,000 MMT Voucher</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Annual Fee</strong></td>
-          <td class="py-2">₹3,000 + GST</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Renewal Benefit</strong></td>
-          <td class="py-2">None (unless requested)</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>Fee Waiver</strong></td>
-          <td class="py-2">On request, based on profile/spends</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-**Key Insight:** The ₹3,000 joining fee is offset by the ₹3,000 MMT (MakeMyTrip) voucher, making the card effectively free for the first year.
-
-## The Game-Changer: 0% Forex Markup
-
-<div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 mb-6 dark:from-purple-700 dark:to-pink-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Zero Markup Advantage</h3>
-    <div class="space-y-3 text-sm">
-      <p><strong>Standard Travel Cards:</strong> 1.99% - 2% forex markup + GST</p>
-      <p><strong>RBL World Safari:</strong> <strong>0% markup fees</strong> (no hidden charges)</p>
-      <p class="text-xs pt-2">💡 Note: NO rewards on international transactions (trade-off for zero markup)</p>
+    <div class="mb-6 p-6 bg-gradient-to-br from-teal-50 via-emerald-50 to-teal-50 dark:from-slate-800/60 dark:via-emerald-900/30 dark:to-slate-800/60 rounded-xl border border-teal-200/50 dark:border-teal-500/30 shadow-lg dark:shadow-xl">
+      <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">RBL Bank World Safari Credit Card: The Ultimate International Travel Companion</h2>
+      <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
+        The RBL Bank World Safari Credit Card is India's premier travel card for globetrotters. Boasting an industry-leading <strong>0% forex markup</strong>, comprehensive multi-trip travel insurance accepted by embassies worldwide, and a rewarding milestone program, this card is built for seamless international adventures. Say goodbye to hidden currency conversion fees and travel with peace of mind.
+      </p>
     </div>
-  </div>
-</div>
 
-This is the card's primary USP. While you don't earn reward points on international spends, you save significantly on forex markup costs.
+    <h3 class="text-xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Quick Facts</h3>
+    <div class="mb-6 overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <tbody>
+          <tr><td class="font-semibold">Card Type</td><td>Premium Travel Credit Card (Mastercard)</td></tr>
+          <tr><td class="font-semibold">Annual Fee</td><td>₹3,000 + GST (offset by welcome voucher)</td></tr>
+          <tr><td class="font-semibold">Forex Markup</td><td>0% (Industry-leading)</td></tr>
+          <tr><td class="font-semibold">Travel Insurance</td><td>Care Insurance, multi-trip, $50,000 USD coverage</td></tr>
+          <tr><td class="font-semibold">Reward Rate</td><td>0.5% - 2.5% (domestic spends)</td></tr>
+          <tr><td class="font-semibold">Lounge Access</td><td>2 domestic / 2 international (Priority Pass) + bonus</td></tr>
+          <tr><td class="font-semibold">Best For</td><td>Frequent international travelers, visa applicants</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-## Rewards Structure for Domestic Spends
-
-| Category | Rate | Effective Return |
-|----------|------|-----------------|
-| Travel Spends (Domestic) | 5 RP per ₹100 | ~1.25% |
-| Non-Travel Spends | 2 RP per ₹100 | ~0.50% |
-| 1 RP Value | ~₹0.25 | Varies with redemption |
-| Points Validity | 2 years | Standard |
-
-<div class="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg p-6 mb-6 dark:from-blue-700 dark:to-cyan-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Travel Spend Definition</h3>
-    <p class="text-sm mb-3">Travel spends include:</p>
-    <ul class="space-y-1 text-sm">
-      <li>✓ Flights & Airfare (domestic & international)</li>
-      <li>✓ Hotel bookings & stays</li>
-      <li>✓ Travel packages & tours</li>
-      <li>✓ Railway bookings</li>
-      <li>✓ Bus & vehicle rentals</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Fees & Welcome Benefits</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Joining Fee:</strong> ₹3,000 + GST</li>
+      <li><strong>Welcome Benefit:</strong> ₹3,000 MakeMyTrip (MMT) Voucher (effectively making the first year free)</li>
+      <li><strong>Annual Fee:</strong> ₹3,000 + GST (waivable on request, based on usage)</li>
+      <li><strong>Renewal Benefit:</strong> None automatically, can be requested based on profile</li>
     </ul>
-  </div>
-</div>
 
-## Milestone Rewards - The Real Value Driver
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">The 0% Forex Markup Advantage</h3>
+    <div class="p-5 bg-gradient-to-br from-purple-50 via-pink-50 to-purple-50 dark:from-purple-900/20 dark:via-pink-900/15 dark:to-purple-900/20 rounded-lg border-l-4 border-purple-500 dark:border-purple-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">✅ Zero Forex Markup Fees</p>
+      <p class="text-sm text-slate-700 dark:text-slate-300">
+        The RBL World Safari is one of the few cards in India to offer a <strong>0% forex markup</strong> on international transactions. This means you save 1.99% - 3.5% (plus GST) on every foreign currency spend compared to standard cards.
+        While you won't earn rewards on international transactions, the significant savings on markup charges make this a game-changer for frequent global travelers.
+      </p>
+    </div>
 
-<div class="bg-gradient-to-r from-green-500 to-teal-500 rounded-lg p-6 mb-6 dark:from-green-700 dark:to-teal-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">Annual Milestone Benefits</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹2.5 Lakhs</strong></td>
-          <td class="py-2">10,000 Points (~₹2,500)</td>
-          <td class="py-2">1% return</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>₹5 Lakhs</strong></td>
-          <td class="py-2">15,000 Points (~₹3,750)</td>
-          <td class="py-2">1.2% return</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>₹7.5 Lakhs</strong></td>
-          <td class="py-2">10,000 eVoucher (~₹2,500)</td>
-          <td class="py-2">2% return</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-**Voucher Options:** Taj experiences, Amazon, Croma, Myntra & MakeMyTrip
-
-On ₹7.5L annual spend, you achieve a 2% overall return rate, which combined with 0% forex markup makes this an excellent card for travelers.
-
-## Comprehensive Travel Insurance
-
-<div class="bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg p-6 mb-6 dark:from-indigo-700 dark:to-purple-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-4">International Travel Medical Insurance</h3>
-    <table class="w-full text-sm">
-      <tbody>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Policy Provider</strong></td>
-          <td class="py-2">Care Insurance (Group Policy)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Coverage Period</strong></td>
-          <td class="py-2">1 year (multi-trip)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Geographic Coverage</strong></td>
-          <td class="py-2">Worldwide (except country of residence)</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Max Trip Duration</strong></td>
-          <td class="py-2">30 days per trip</td>
-        </tr>
-        <tr class="border-b border-white/30">
-          <td class="py-2"><strong>Emergency Medical</strong></td>
-          <td class="py-2">$50,000 USD coverage</td>
-        </tr>
-        <tr>
-          <td class="py-2"><strong>Visa Acceptance</strong></td>
-          <td class="py-2">Accepted by most embassies worldwide</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-### Travel Insurance Coverage Includes
-
-- Personal Liability coverage
-- Trip Delay/Cancellation
-- Baggage Loss & Delay
-- Loss of Passport
-- Dental Treatment (emergency)
-- Hospitalization & Medical expenses
-- Flight Accident coverage
-
-**Policy Issuance Timeline:** Within 1 week of card issuance after verification
-
-**Estimated Value:** ₹7,000+ (mandatory for many visa applications)
-
-## Lounge & Lifestyle Benefits
-
-### Airport Lounge Access
-
-| Access Type | Details | Frequency |
-|-------------|---------|-----------|
-| Domestic Lounge | Visa/Mastercard | 2 per quarter |
-| International Lounge | Priority Pass | 2 per year |
-| Spend Bonus | +1 Int'l visit per ₹50K/quarter spend | Variable |
-
-<div class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg p-6 mb-6 dark:from-orange-700 dark:to-red-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Lounge Access Insight</h3>
-    <p class="text-sm">The lounge access is modest (2 per quarter domestic) but still valuable. The spend-linked bonus can increase international visits if you meet spending targets.</p>
-  </div>
-</div>
-
-### Golf Privileges
-
-- **4 Complimentary Golf Games per Year** (max 1 per month)
-- **12 Complimentary Golf Lessons per Year** (1 per month)
-- Mastercard World benefit coverage
-
-## Complete Rewards Analysis
-
-### Best Case Scenario: ₹7.5L Annual Spend
-
-**Composition:** 60% travel + 40% non-travel
-
-- Base Travel Rewards: ₹2,500 (~1.25%)
-- Base Non-Travel: ₹1,000 (~0.50%)
-- Milestone Bonus: ₹2,500 (at ₹7.5L)
-- **Total Annual Return: ₹6,000 (approximately 2% effective)**
-
-### With 0% Forex Markup
-
-- Domestic Savings: ~₹3,000
-- International Forex Savings: ~₹2,000-5,000 (depending on international spend)
-- **Total Value (Domestic + International): ₹9,000-11,000**
-
-## Card Design & Specifications
-
-<div class="bg-gradient-to-r from-teal-500 to-green-500 rounded-lg p-6 mb-6 dark:from-teal-700 dark:to-green-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Card Features</h3>
-    <ul class="space-y-2 text-sm">
-      <li>✓ Mastercard Network (excellent global acceptance)</li>
-      <li>✓ Chip & PIN technology for online/offline security</li>
-      <li>✓ Contactless payment enabled</li>
-      <li>✓ International acceptance without issues</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Reward Points System (Domestic Spends)</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Travel Spends:</strong> 5 Travel Points per ₹100 (1.25% effective return)</li>
+      <li><strong>Other Domestic Spends:</strong> 2 Travel Points per ₹100 (0.50% effective return)</li>
+      <li><strong>1 Travel Point Value:</strong> ~₹0.25 (varies by redemption category)</li>
+      <li><strong>Points Validity:</strong> 2 years</li>
     </ul>
-  </div>
-</div>
 
-## Eligibility & Application
+    <div class="p-5 bg-gradient-to-br from-blue-50 via-cyan-50 to-blue-50 dark:from-blue-900/20 dark:via-cyan-900/15 dark:to-blue-900/20 rounded-lg border-l-4 border-blue-500 dark:border-blue-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">✈️ Travel Spends include:</p>
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li>Flights & Airfare (domestic & international)</li>
+        <li>Hotel bookings & stays</li>
+        <li>Travel packages & tours</li>
+        <li>Railway & Bus bookings, vehicle rentals</li>
+      </ul>
+    </div>
 
-### Who Can Apply
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Milestone Rewards: Boost Your Savings</h3>
+    <div class="mb-6 overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <tbody>
+          <tr><td class="font-semibold">₹2.5 Lakhs Spend</td><td>10,000 Travel Points (~₹2,500 value)</td><td>1% effective return</td></tr>
+          <tr><td class="font-semibold">₹5 Lakhs Spend</td><td>15,000 Travel Points (~₹3,750 value)</td><td>1.2% effective return</td></tr>
+          <tr><td class="font-semibold">₹7.5 Lakhs Spend</td><td>₹10,000 e-Voucher</td><td>2% effective return</td></tr>
+        </tbody>
+      </table>
+      <p class="text-sm text-slate-700 dark:text-slate-300 mt-3">Voucher options include Taj experiences, Amazon, Croma, Myntra, and MakeMyTrip.</p>
+      <p class="text-sm text-slate-700 dark:text-slate-300 mt-2">Achieving ₹7.5 Lakhs annual spend provides an impressive 2% overall return rate, further enhancing the card's value for travelers.</p>
+    </div>
 
-| Criteria | Details |
-|----------|---------|
-| Salaried/Self-employed | Both eligible |
-| Income Requirement | Generally ₹25L+ p.a. |
-| Existing RBL Cards | Can apply for upgrade/replacement |
-| CIBIL Score | 750+ preferred |
-| Credit Card History | Helps with approval |
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Comprehensive Travel Insurance</h3>
+    <div class="p-5 bg-gradient-to-br from-indigo-50 via-purple-50 to-indigo-50 dark:from-indigo-900/20 dark:via-purple-900/15 dark:to-indigo-900/20 rounded-lg border-l-4 border-indigo-500 dark:border-indigo-400/50 mb-6">
+      <p class="font-semibold text-slate-900 dark:text-white mb-2">🛡️ Care Insurance Group Policy Details:</p>
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li><strong>Coverage Period:</strong> 1 year (multi-trip)</li>
+        <li><strong>Geographic Scope:</strong> Worldwide (excluding country of residence)</li>
+        <li><strong>Max Trip Duration:</strong> 30 days per trip</li>
+        <li><strong>Emergency Medical:</strong> $50,000 USD coverage</li>
+        <li><strong>Visa Acceptance:</strong> Accepted by most embassies for visa applications (e.g., Schengen)</li>
+        <li><strong>Includes:</strong> Personal Liability, Trip Delay/Cancellation, Baggage Loss, Loss of Passport, Dental Treatment, Hospitalization, Flight Accident.</li>
+        <li><strong>Estimated Value:</strong> ₹7,000+ (a significant saving for visa applicants)</li>
+      </ul>
+    </div>
 
-### Application Process
-
-1. **Online Application:** Via RBL website
-2. **Branch:** In-person application
-3. **Card-on-Card:** If you have another RBL card with good credit limit
-
-## Who Should Get This Card?
-
-<div class="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg p-6 mb-6 dark:from-yellow-700 dark:to-orange-700">
-  <div class="text-white">
-    <h3 class="text-lg font-bold mb-3">Ideal Profile</h3>
-    <ul class="space-y-2 text-sm">
-      <li>✅ International travelers (2-3+ trips/year)</li>
-      <li>✅ Business travelers with forex spends</li>
-      <li>✅ Digital nomads & expat workers</li>
-      <li>✅ Those planning Schengen/Euro visa soon</li>
-      <li>✅ Annual spends ₹7.5L+ for fee waiver</li>
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Lounge & Golf Benefits</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Domestic Lounge Access:</strong> 2 per quarter (Mastercard/Visa network)</li>
+      <li><strong>International Lounge Access:</strong> 2 per year (Priority Pass)</li>
+      <li><strong>Bonus International Visit:</strong> +1 additional visit for every ₹50,000 spent per quarter</li>
+      <li><strong>Golf Games:</strong> 4 complimentary games per year (max 1 per month)</li>
+      <li><strong>Golf Lessons:</strong> 12 complimentary lessons per year (max 1 per month)</li>
     </ul>
-  </div>
-</div>
 
-## Potential Concerns
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Eligibility & Application</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Income Requirement:</strong> Generally ₹25 Lakhs+ p.a. (salaried/self-employed)</li>
+      <li><strong>CIBIL Score:</strong> 750+ preferred, good credit history helps</li>
+      <li><strong>Application:</strong> Online via RBL website, in-branch, or card-on-card basis</li>
+    </ul>
 
-⚠️ **Areas to Watch:**
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Who Should Get This Card?</h3>
+    <div class="p-5 bg-gradient-to-br from-yellow-50 via-orange-50 to-yellow-50 dark:from-yellow-900/20 dark:via-orange-900/15 dark:to-yellow-900/20 rounded-lg border-l-4 border-yellow-600 dark:border-yellow-400/50 mb-6">
+      <ul class="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+        <li>✅ Frequent International Travelers (2-3+ trips/year)</li>
+        <li>✅ Business Travelers with regular forex spends</li>
+        <li>✅ Digital Nomads & Expats seeking forex savings</li>
+        <li>✅ Individuals applying for Schengen/Euro visas (due to included insurance)</li>
+        <li>✅ Those with annual spends of ₹7.5 Lakhs+ to maximize milestone benefits</li>
+      </ul>
+    </div>
 
-1. **Customer Support:** RBL's customer service can be inconsistent
-2. **Limited Lounge Access:** 2 per quarter domestic is lower than competitors
-3. **Travel Insurance Renewal:** Auto-renewal can sometimes be unclear
-4. **Fee Waiver Conditions:** Less flexible than some competitors
-5. **Rewards Redemption:** Points value varies (₹0.25/point is moderate)
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Potential Concerns & Drawbacks</h3>
+    <ul class="mb-6 list-disc ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>Customer Support:</strong> RBL Bank's customer service can be inconsistent.</li>
+      <li><strong>Modest Lounge Access:</strong> Domestic lounge access (2 per quarter) is lower than some competitors.</li>
+      <li><strong>Rewards Redemption Value:</strong> Point value of ~₹0.25 is moderate.</li>
+      <li><strong>No Rewards on International Spends:</strong> A trade-off for 0% forex markup.</li>
+    </ul>
 
-## Comparison with Competitors
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Verdict</h3>
+    <div class="p-6 bg-gradient-to-br from-indigo-50 via-purple-50 to-indigo-50 dark:from-indigo-900/30 dark:via-purple-900/20 dark:to-indigo-900/30 rounded-xl border-2 border-indigo-300 dark:border-indigo-600/50 shadow-lg dark:shadow-xl mb-6">
+      <p class="text-center text-xl font-serif font-bold mb-3 text-slate-900 dark:text-white">⭐⭐⭐⭐ 4/5</p>
+      <p class="text-sm text-center text-slate-700 dark:text-slate-300 leading-relaxed">
+        The RBL World Safari Credit Card is an excellent choice for dedicated international travelers who prioritize forex savings and comprehensive insurance. Its 0% markup and included travel insurance (worth ₹7,000+) provide significant value, especially for those making multiple trips or applying for visas. While domestic rewards and lounge access are modest, the core international travel benefits make this card a strong contender.
+      </p>
+    </div>
 
-**vs. HDFC Infinia:** Infinia wins on base rewards but World Safari wins on 0% forex
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Key Takeaways</h3>
+    <ul class="mb-6 list-decimal ml-6 text-slate-700 dark:text-slate-300">
+      <li><strong>0% Forex Markup:</strong> Save substantially on all international transactions.</li>
+      <li><strong>Comprehensive Travel Insurance:</strong> Accepted by embassies for visa applications.</li>
+      <li><strong>Effective First Year Free:</strong> ₹3,000 MMT voucher offsets joining fee.</li>
+      <li><strong>Strong Milestone Benefits:</strong> Up to 2% effective return at ₹7.5L annual spend.</li>
+      <li><strong>Mastercard Network:</strong> Excellent global acceptance.</li>
+      <li><strong>Ideal for Visa Applicants:</strong> Included insurance simplifies the process.</li>
+    </ul>
 
-**vs. Axis Burgundy Private:** Similar forex benefit, but Burgundy is invite-only
+    <h3 class="text-xl font-serif font-bold mb-4 mt-10 text-slate-900 dark:text-white">Frequently Asked Questions</h3>
+    <div class="space-y-4 mb-6">
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">Does the 0% markup apply to all international transactions?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Yes, on spends. ATM withdrawals incur standard charges. Note: No rewards on international spends.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">Is the travel insurance automatically activated?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Yes, it's activated upon card issuance. Policy documents are usually sent within a week.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">Can I use this for Schengen visa applications?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">Yes, the comprehensive travel insurance is accepted by most embassies worldwide.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">What's the Priority Pass validity?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">It's typically valid for 1 year from card issuance. Check with RBL for renewal details and associated fees.</p>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border-l-4 border-slate-500 dark:border-slate-400/50">
+        <p class="font-semibold text-slate-900 dark:text-white mb-1">Is there a better alternative for high spenders?</p>
+        <p class="text-sm text-slate-700 dark:text-slate-300">For ₹20L+ annual spend, cards like HDFC Infinia or Axis Magnus might offer higher overall value, but they come with higher fees.</p>
+      </div>
+    </div>
 
-**vs. SBI Elite Travel:** World Safari offers better forex markup (0% vs 1.99%)
-
-## The Verdict
-
-<div class="bg-gradient-to-r from-pink-500 to-red-500 rounded-lg p-6 mb-6 dark:from-pink-700 dark:to-red-700">
-  <div class="text-white">
-    <h3 class="text-2xl font-bold mb-2">CardExpert Rating: 4.3/5</h3>
-    <p class="text-sm">RBL World Safari Credit Card is an excellent option for international travelers with a compelling value proposition combining 0% forex markup with comprehensive travel insurance.</p>
-  </div>
-</div>
-
-**Verdict:** If you travel internationally 2-3 times annually and value forex savings, the World Safari is worth serious consideration. The 0% markup combined with travel insurance (valued at ₹7K+) and milestone benefits make it a strong investment. However, the modest lounge access and RBL's customer service reputation are the main drawbacks. For international travelers who don't have access to super premium cards like Infinia, this is one of the best options available.
-
-## Key Takeaways
-
-1. **0% Forex Markup:** No hidden markup charges on international transactions
-2. **Travel Insurance:** Accepted by embassies, valued at ₹7,000+
-3. **Affordable Fee:** ₹3,000 offset by welcome voucher (effectively free year 1)
-4. **Milestone Benefits:** Up to 2% return at ₹7.5L annual spend
-5. **Mastercard Network:** Better acceptance than some competitors
-6. **Fee Waiver:** On retention request based on profile (not guaranteed)
-7. **Insurance Value:** Crucial for visa applications to EU countries
-
-## Frequently Asked Questions
-
-**Q: Does the 0% markup apply to all international transactions?**
-A: Yes, except ATM withdrawals which incur standard charges. Also, no rewards on international spends.
-
-**Q: Is the travel insurance automatically activated?**
-A: Yes, it's activated upon card issuance. You'll receive policy documents within a week.
-
-**Q: Can I use this for Schengen visa applications?**
-A: Yes, the travel insurance is accepted by most embassies worldwide for visa applications.
-
-**Q: What's the Priority Pass validity?**
-A: 1 year from card issuance. Renewal requires paying additional fees (check with bank).
-
-**Q: Is there a better alternative for high spenders?**
-A: If you spend ₹20L+, HDFC Infinia or Axis Magnus offer better total value despite higher fees.
-
-**Q: Can I get fee waived on renewal?**
-A: Possible through retention offers if you request, but not automatic. Depends on relationship status.
-
-**Q: Are salary account customers prioritized?**
-A: Yes, RBL salary account holders get easier approvals and sometimes better offers.
-
----
-
-*Last Updated: December 2025*
-*Information accurate as of review date. Benefits subject to RBL's Terms & Conditions.*
-`,
+    <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
+      <strong>Last Updated:</strong> December 2025 | Information based on CardExpert Review & RBL Bank official sources | Benefits subject to change by RBL Bank
+    </p>
+  `,
 };
