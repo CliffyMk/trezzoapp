@@ -52,11 +52,11 @@ export const CATEGORIES: Category[] = [
     articles: allArticles['budgeting'],
   },
   {
-    id: 'insurance',
-    name: 'Insurance & Risk',
-    iconName: 'ShieldCheck',
-    description: 'Protecting your assets. Travel, health, and life insurance guides.',
-    articles: allArticles['insurance'],
+    id: 'philosophy',
+    name: 'Philosophy',
+    iconName: 'BookOpen',
+    description: 'Ancient wisdom for modern life. Stoicism, mindfulness, and meaning.',
+    articles: allArticles['philosophy'],
   },
   {
     id: 'luxury-travel',
@@ -66,10 +66,11 @@ export const CATEGORIES: Category[] = [
     articles: allArticles['luxury-travel'],
   },
   {
-    id: 'global-economy',
-    name: 'Global Economy',
-    iconName: 'Globe',
-    description: 'Macro trends that affect your wallet. Currencies and geopolitics.',
-    articles: allArticles['global-economy'],
+    id: 'work-life',
+    name: 'Work-Life Balance',
+    iconName: 'Heart',
+    description: 'Productivity, wellness, and building a sustainable career.',
+    articles: allArticles['work-life'],
   },
 ];
+

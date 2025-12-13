@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import {
   CreditCard, Plane, Hotel, TrendingUp, Umbrella, Laptop,
-  PieChart, ShieldCheck, Gem, Globe, ChevronLeft, ChevronRight,
-  X, Search, Briefcase, Compass
+  PieChart, BookOpen, Gem, Heart, ChevronLeft, ChevronRight,
+  X, Search, Briefcase, Compass, Globe
 } from 'lucide-react';
 import { CATEGORIES } from '../constants';
 import ThemeToggle from './ThemeToggle';
@@ -11,7 +11,7 @@ import { Category } from '../types';
 
 const iconMap: { [key: string]: React.ElementType } = {
   CreditCard, Plane, Hotel, TrendingUp, Umbrella, Laptop,
-  PieChart, ShieldCheck, Gem, Globe
+  PieChart, BookOpen, Gem, Heart, Globe
 };
 
 interface NavItemProps {
@@ -74,7 +74,7 @@ const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, setMobileOpen }) => {
 
   // Group Categories for better structure
   const wealthCategories = CATEGORIES.filter(c =>
-    ['credit-cards', 'investing-basics', 'retirement', 'budgeting', 'insurance', 'global-economy'].includes(c.id)
+    ['credit-cards', 'investing-basics', 'retirement', 'budgeting', 'philosophy', 'work-life'].includes(c.id)
   );
   const wanderCategories = CATEGORIES.filter(c =>
     ['airline-miles', 'hotel-status', 'luxury-travel', 'digital-nomad'].includes(c.id)

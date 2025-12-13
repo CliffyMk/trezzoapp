@@ -7,9 +7,9 @@ import { investingBasicsArticles } from './investing-basics';
 import { retirementArticles } from './retirement';
 import { digitalNomadArticles } from './digital-nomad';
 import { budgetingArticles } from './budgeting';
-import { insuranceArticles } from './insurance';
+import { philosophyArticles } from './philosophy';
 import { luxuryTravelArticles } from './luxury-travel';
-import { globalEconomyArticles } from './global-economy';
+import { workLifeArticles } from './work-life';
 
 export const allArticles = {
   'credit-cards': creditCardsArticles,
@@ -19,7 +19,8 @@ export const allArticles = {
   'retirement': retirementArticles,
   'digital-nomad': digitalNomadArticles,
   'budgeting': budgetingArticles,
-  'insurance': insuranceArticles,
+  'philosophy': philosophyArticles,
   'luxury-travel': luxuryTravelArticles,
-  'global-economy': globalEconomyArticles,
+  'work-life': workLifeArticles,
 };
+
