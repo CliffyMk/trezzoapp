@@ -494,7 +494,7 @@ export const hdfcInfiniaArticle: Article = {
       </p>
     </div>
   `,
-  imageUrl: '/trezzoapp/images/credit-cards/infinia-mk.png',
+  imageUrl: '/images/credit-cards/infinia-mk.png',
   date: 'Dec 11, 2025',
   readTime: '18 min',
   tags: ['Super Premium', 'Dream Card', 'Detailed Review'],

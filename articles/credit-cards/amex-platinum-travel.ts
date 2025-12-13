@@ -5,7 +5,7 @@ export const amexPlatinumTravelArticle: Article = {
   title: 'American Express Platinum Travel Credit Card Review',
   excerpt: 'Travel Credit Card with 8.5% rewards on milestones - Best travel card in India',
   readTime: '15 min read',
-  imageUrl: '/trezzoapp/images/credit-cards/plat-travel-mk.png',
+  imageUrl: '/images/credit-cards/plat-travel-mk.png',
   date: '2025-12-11',
   tags: ['credit-card', 'amex', 'travel', 'rewards'],
   content: `
