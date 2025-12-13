@@ -12,6 +12,11 @@ import { hdfcBizBlackArticle } from './hdfc-bizblack';
 import { rblWorldSafariArticle } from './rbl-world-safari';
 import { hdfcMarriottBonvoyArticle } from './hdfc-marriott-bonvoy';
 import { amexPlatinumTravelArticle } from './amex-platinum-travel';
+import { idfcMayuraArticle } from './idfc-mayura';
+import { hdfcRegaliaGoldArticle } from './hdfc-regalia-gold';
+import { axisAtlasArticle } from './axis-atlas';
+import { scapiaFederalArticle } from './scapia-federal';
+import { sbiCashbackArticle } from './sbi-cashback';
 
 // Helper to generate placeholder content
 const generateContent = (topic: string) => `
@@ -46,6 +51,11 @@ const generateContent = (topic: string) => `
 
 export const creditCardsArticles: Article[] = [
   masterCreditCardsGuideArticle,
+  idfcMayuraArticle,
+  hdfcRegaliaGoldArticle,
+  axisAtlasArticle,
+  scapiaFederalArticle,
+  sbiCashbackArticle,
   axisMagnusBurgundyArticle,
   hdfcInfiniaArticle,
   standardCharteredUltimateArticle,
@@ -79,3 +89,4 @@ export const creditCardsArticles: Article[] = [
     tags: ['Strategy', 'Beginner'],
   },
 ];
+
