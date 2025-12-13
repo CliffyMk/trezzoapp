@@ -127,15 +127,15 @@ const ArticlePage = () => {
         </div>
       </header>
 
-      <article className="prose prose-lg dark:prose-invert prose-slate max-w-none 
+      <article className="prose prose-lg dark:prose-invert prose-slate max-w-none article-content
         prose-headings:font-serif prose-headings:font-medium prose-headings:text-slate-900 dark:prose-headings:text-white 
-        prose-p:font-light prose-p:leading-8 prose-p:text-slate-600 dark:prose-p:text-slate-300/90
+        prose-p:leading-loose prose-p:text-slate-700 dark:prose-p:text-slate-300
         prose-a:text-gold-600 dark:prose-a:text-gold-500 hover:prose-a:text-gold-400 
         prose-blockquote:border-l-gold-500 prose-blockquote:text-xl prose-blockquote:font-serif prose-blockquote:italic
-        prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-medium
+        prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-semibold
         prose-li:marker:text-gold-500">
 
-        <div className="text-2xl md:text-3xl font-serif text-slate-800 dark:text-slate-200 mb-12 leading-relaxed font-normal">
+        <div className="text-2xl md:text-3xl font-serif text-slate-800 dark:text-slate-200 mb-12 leading-relaxed font-normal tracking-wide">
           {article.excerpt}
         </div>
 
