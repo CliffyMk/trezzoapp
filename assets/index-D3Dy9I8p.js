@@ -415,7 +415,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
       <p class="mb-3 text-slate-700 dark:text-slate-300">The Axis Magnus Burgundy is a wonderfully rewarding credit card for elite spenders. It's an absolute must-have for those spending over ₹1.5L monthly.</p>
       <p class="text-slate-700 dark:text-slate-300 text-sm">⚠️ <span class="font-semibold text-slate-900 dark:text-white">Key Consideration:</span> Be aware of the long list of exclusions including utilities, insurance, and gold purchases. The card caps Group A redemptions at 2L points per year.</p>
     </div>
-  `,imageUrl:"/trezzoapp/images/credit-cards/m4b-mk.png",date:"Dec 1, 2025",readTime:"6 min",tags:["HNI","Premium","Rewards","Travel"]},Qh={id:"cc-hsbc-travelone",title:"HSBC TravelOne Credit Card Review (India)",excerpt:"A travel-focused card with uncapped transfers and decent travel rewards — best for frequent OTA/hotel bookers who use Accor and similar partners.",content:`
+  `,imageUrl:"/images/credit-cards/m4b-mk.png",date:"Dec 1, 2025",readTime:"6 min",tags:["HNI","Premium","Rewards","Travel"]},Qh={id:"cc-hsbc-travelone",title:"HSBC TravelOne Credit Card Review (India)",excerpt:"A travel-focused card with uncapped transfers and decent travel rewards — best for frequent OTA/hotel bookers who use Accor and similar partners.",content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 dark:from-slate-800/60 dark:via-purple-900/30 dark:to-slate-800/60 rounded-xl border border-purple-200/50 dark:border-purple-500/30 shadow-lg dark:shadow-xl">
       <h3 class="text-lg font-serif font-bold mb-4 text-slate-900 dark:text-white">Card Overview</h3>
       <div class="grid grid-cols-2 gap-4">
@@ -634,7 +634,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
       <p class="mb-3 text-slate-700 dark:text-slate-300">HSBC TravelOne is a solid travel-oriented card with wide transfer options and targeted bonuses for OTA/hotel spends. Its strengths are partner flexibility and targeted rewards; its weaknesses are a relatively high forex markup, a limited milestone structure, and a welcome benefit that requires minimum spend to materialise fully.</p>
       <p class="text-slate-700 dark:text-slate-300 text-sm">Recommendation: Consider this card if you frequently book hotels or OTAs and can take advantage of transfers (Accor in particular). If your spends are concentrated in other categories, compare with Axis Atlas and Amex Platinum Travel before deciding.</p>
     </div>
-  `,imageUrl:"/trezzoapp/images/credit-cards/travelone.png",date:"Dec 1, 2025",readTime:"5 min",tags:["Travel","HSBC","Rewards"]},Kh={id:"cc-entry-level-guide",title:"Entry Level Credit Cards Guide 2025",excerpt:"Complete guide to beginner-friendly credit cards: SBI Cashback, HDFC Swiggy, Federal Scapia, Axis Cashback, and Amex MRCC. Perfect for first-time users with 5%+ cashback.",content:`
+  `,imageUrl:"/images/credit-cards/travelone.png",date:"Dec 1, 2025",readTime:"5 min",tags:["Travel","HSBC","Rewards"]},Kh={id:"cc-entry-level-guide",title:"Entry Level Credit Cards Guide 2025",excerpt:"Complete guide to beginner-friendly credit cards: SBI Cashback, HDFC Swiggy, Federal Scapia, Axis Cashback, and Amex MRCC. Perfect for first-time users with 5%+ cashback.",content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 dark:from-slate-800/60 dark:via-purple-900/30 dark:to-slate-800/60 rounded-xl border border-purple-200/50 dark:border-purple-500/30 shadow-lg dark:shadow-xl">
       <h3 class="text-lg font-serif font-bold mb-4 text-slate-900 dark:text-white">What Are Entry Level Cards?</h3>
       <div class="grid grid-cols-2 gap-4">
@@ -1561,7 +1561,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
         <span class="font-semibold">If eligible:</span> Apply through your RM or online. The welcome & renewal benefits essentially offset the annual fee, making this a no-brainer for high spenders and frequent travelers.
       </p>
     </div>
-  `,imageUrl:"/trezzoapp/images/credit-cards/infinia-mk.png",date:"Dec 11, 2025",readTime:"18 min",tags:["Super Premium","Dream Card","Detailed Review"]},Wh={id:"standard-chartered-ultimate",title:"Standard Chartered Ultimate Credit Card Review - Super Premium Rewards Card",excerpt:"Comprehensive review of the Standard Chartered Ultimate Credit Card featuring 3.3% reward rate, unlimited redemption options, and premium lifestyle benefits.",date:"2024-01-15",readTime:"12 min",tags:["credit cards","super premium","rewards","standard chartered"],imageUrl:"/trezzoapp/images/credit-cards/sc-mk.png",content:`
+  `,imageUrl:"/images/credit-cards/infinia-mk.png",date:"Dec 11, 2025",readTime:"18 min",tags:["Super Premium","Dream Card","Detailed Review"]},Wh={id:"standard-chartered-ultimate",title:"Standard Chartered Ultimate Credit Card Review - Super Premium Rewards Card",excerpt:"Comprehensive review of the Standard Chartered Ultimate Credit Card featuring 3.3% reward rate, unlimited redemption options, and premium lifestyle benefits.",date:"2024-01-15",readTime:"12 min",tags:["credit cards","super premium","rewards","standard chartered"],imageUrl:"/images/credit-cards/sc-mk.png",content:`
     <div class="article-container">
       <section class="article-section">
         <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-white mb-4">Overview</h2>
@@ -1878,7 +1878,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
         </div>
       </section>
     </div>
-  `},Ph={id:"amex-platinum-charge",title:"American Express Platinum Charge Card Review - Ultra Premium Metal Card",excerpt:"In-depth review of the Amex Platinum Charge Card with Marriott Gold Elite tier, hotel memberships, lifestyle benefits, and comprehensive travel concierge services.",date:"2024-02-01",readTime:"15 min",tags:["credit cards","ultra premium","charge card","american express","lifestyle"],imageUrl:"/trezzoapp/images/credit-cards/amex-mk.png",content:`
+  `},Ph={id:"amex-platinum-charge",title:"American Express Platinum Charge Card Review - Ultra Premium Metal Card",excerpt:"In-depth review of the Amex Platinum Charge Card with Marriott Gold Elite tier, hotel memberships, lifestyle benefits, and comprehensive travel concierge services.",date:"2024-02-01",readTime:"15 min",tags:["credit cards","ultra premium","charge card","american express","lifestyle"],imageUrl:"/images/credit-cards/amex-mk.png",content:`
     <div class="article-container">
       <section class="article-section">
         <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-white mb-4">Overview</h2>
@@ -2258,7 +2258,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
         </div>
       </section>
     </div>
-  `},$h={id:"icici-emeralde-private",title:"ICICI Emeralde Private Metal Credit Card Review - Super Premium Metal Card",excerpt:"Detailed review of ICICI Emeralde Private Metal with 3% base rewards, Taj Epicure membership, unlimited lounge access, and 3.75% milestone rewards.",date:"2024-03-15",readTime:"13 min",tags:["credit cards","super premium","metal card","icici bank","rewards"],imageUrl:"/trezzoapp/images/credit-cards/epm-mk.png",content:`
+  `},$h={id:"icici-emeralde-private",title:"ICICI Emeralde Private Metal Credit Card Review - Super Premium Metal Card",excerpt:"Detailed review of ICICI Emeralde Private Metal with 3% base rewards, Taj Epicure membership, unlimited lounge access, and 3.75% milestone rewards.",date:"2024-03-15",readTime:"13 min",tags:["credit cards","super premium","metal card","icici bank","rewards"],imageUrl:"/images/credit-cards/epm-mk.png",content:`
     <div class="article-container">
       <section class="article-section">
         <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-white mb-4">Overview</h2>
@@ -2993,7 +2993,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p>Last Updated: December 2025</p>
     <p>Information accurate as of review date. Card features and benefits subject to change.</p>
   </div>
-</div>`},tg={id:"hdfc-bizblack",title:"HDFC Bank BizBlack Credit Card Review",excerpt:"Business Credit Card with 5X rewards on tax payments - Best for entrepreneurs",readTime:"16 min read",imageUrl:"/trezzoapp/images/credit-cards/hdfc-bizblack.jpg",date:"2025-12-11",tags:["credit-card","hdfc","business","tax-rewards"],content:`
+</div>`},tg={id:"hdfc-bizblack",title:"HDFC Bank BizBlack Credit Card Review",excerpt:"Business Credit Card with 5X rewards on tax payments - Best for entrepreneurs",readTime:"16 min read",imageUrl:"/images/credit-cards/hdfc-bizblack.jpg",date:"2025-12-11",tags:["credit-card","hdfc","business","tax-rewards"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-indigo-50 via-blue-50 to-indigo-50 dark:from-slate-800/60 dark:via-indigo-900/30 dark:to-slate-800/60 rounded-xl border border-indigo-200/50 dark:border-indigo-500/30 shadow-lg dark:shadow-xl">
       <h3 class="text-lg font-serif font-bold mb-4 text-slate-900 dark:text-white">The Industry-First Business Rewards Card</h3>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -3807,7 +3807,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p>Last Updated: December 2025</p>
     <p>Information accurate as of review date. Benefits subject to change by HDFC Bank.</p>
   </div>
-</div>`},ag={id:"rbl-world-safari",title:"RBL Bank World Safari Credit Card Review",excerpt:"Travel Credit Card with 0% forex markup - Best for international travelers",readTime:"13 min read",imageUrl:"/trezzoapp/images/credit-cards/world-safari-mk.png",date:"2025-12-11",tags:["credit-card","rbl","travel","forex"],content:`
+</div>`},ag={id:"rbl-world-safari",title:"RBL Bank World Safari Credit Card Review",excerpt:"Travel Credit Card with 0% forex markup - Best for international travelers",readTime:"13 min read",imageUrl:"/images/credit-cards/world-safari-mk.png",date:"2025-12-11",tags:["credit-card","rbl","travel","forex"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-teal-50 via-emerald-50 to-teal-50 dark:from-slate-800/60 dark:via-emerald-900/30 dark:to-slate-800/60 rounded-xl border border-teal-200/50 dark:border-teal-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">RBL Bank World Safari Credit Card: The Ultimate International Travel Companion</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -3972,7 +3972,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information based on CardExpert Review & RBL Bank official sources | Benefits subject to change by RBL Bank
     </p>
-  `},lg={id:"hdfc-marriott-bonvoy",title:"HDFC Bank Marriott Bonvoy Credit Card Review",excerpt:"Co-brand Travel Card with Free Night Awards - Best for Marriott loyalists",readTime:"14 min read",imageUrl:"/trezzoapp/images/credit-cards/mb-mk.png",date:"2025-12-11",tags:["credit-card","hdfc","marriott","travel"],content:`
+  `},lg={id:"hdfc-marriott-bonvoy",title:"HDFC Bank Marriott Bonvoy Credit Card Review",excerpt:"Co-brand Travel Card with Free Night Awards - Best for Marriott loyalists",readTime:"14 min read",imageUrl:"/images/credit-cards/mb-mk.png",date:"2025-12-11",tags:["credit-card","hdfc","marriott","travel"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-indigo-50 via-blue-50 to-indigo-50 dark:from-slate-800/60 dark:via-indigo-900/30 dark:to-slate-800/60 rounded-xl border border-indigo-200/50 dark:border-indigo-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">HDFC Bank Marriott Bonvoy Credit Card: Elite Hotel Stays & Free Nights</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -4168,7 +4168,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information based on HDFC Bank & Marriott Bonvoy official sources | Benefits subject to change by HDFC Bank
     </p>
-  `},sg={id:"amex-platinum-travel",title:"American Express Platinum Travel Credit Card Review",excerpt:"Travel Credit Card with 8.5% rewards on milestones - Best travel card in India",readTime:"15 min read",imageUrl:"/trezzoapp/images/credit-cards/plat-travel-mk.png",date:"2025-12-11",tags:["credit-card","amex","travel","rewards"],content:`
+  `},sg={id:"amex-platinum-travel",title:"American Express Platinum Travel Credit Card Review",excerpt:"Travel Credit Card with 8.5% rewards on milestones - Best travel card in India",readTime:"15 min read",imageUrl:"/images/credit-cards/plat-travel-mk.png",date:"2025-12-11",tags:["credit-card","amex","travel","rewards"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-purple-50 via-pink-50 to-purple-50 dark:from-slate-800/60 dark:via-purple-900/30 dark:to-slate-800/60 rounded-xl border border-purple-200/50 dark:border-purple-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">American Express Platinum Travel Credit Card: Your Gateway to Premium Travel</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -4359,7 +4359,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information based on American Express official sources & CardExpert Review | Benefits subject to change by American Express
     </p>
-  `},rg={id:"idfc-mayura-credit-card",title:"IDFC FIRST Bank Mayura Credit Card Review",excerpt:"Premium metal card with 0% forex markup, 3.3% reward rate on travel, and up to 6.6% on accelerated spends.",readTime:"12 min read",imageUrl:"/trezzoapp/images/credit-cards/mayura-mk.png",date:"2025-12-13",tags:["credit-card","idfc","travel","forex","premium"],content:`
+  `},rg={id:"idfc-mayura-credit-card",title:"IDFC FIRST Bank Mayura Credit Card Review",excerpt:"Premium metal card with 0% forex markup, 3.3% reward rate on travel, and up to 6.6% on accelerated spends.",readTime:"12 min read",imageUrl:"/images/credit-cards/mayura-mk.png",date:"2025-12-13",tags:["credit-card","idfc","travel","forex","premium"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-slate-800/60 dark:via-amber-900/30 dark:to-slate-800/60 rounded-xl border border-amber-200/50 dark:border-amber-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">IDFC FIRST Bank Mayura Credit Card: Premium Metal Card with Exceptional Rewards</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -4486,7 +4486,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information sourced from CardExpert.in | Benefits subject to change by IDFC FIRST Bank
     </p>
-  `},ig={id:"hdfc-regalia-gold-credit-card",title:"HDFC Bank Regalia Gold Credit Card Review",excerpt:"Premium lifestyle card with Priority Pass for add-on members, quarterly milestones, and airport transfers.",readTime:"14 min read",imageUrl:"/trezzoapp/images/credit-cards/regalia.png",date:"2025-12-13",tags:["credit-card","hdfc","travel","lounge","premium"],content:`
+  `},ig={id:"hdfc-regalia-gold-credit-card",title:"HDFC Bank Regalia Gold Credit Card Review",excerpt:"Premium lifestyle card with Priority Pass for add-on members, quarterly milestones, and airport transfers.",readTime:"14 min read",imageUrl:"/images/credit-cards/regalia.png",date:"2025-12-13",tags:["credit-card","hdfc","travel","lounge","premium"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-50 dark:from-slate-800/60 dark:via-yellow-900/30 dark:to-slate-800/60 rounded-xl border border-yellow-200/50 dark:border-yellow-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">HDFC Bank Regalia Gold Credit Card: The Premium Family Travel Card</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -4642,7 +4642,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information sourced from CardExpert.in | Benefits subject to change by HDFC Bank
     </p>
-  `},ng={id:"axis-atlas-credit-card",title:"Axis Bank Atlas Credit Card Review",excerpt:"Travel card with Edge Miles system offering up to 7% return via ITC/Accor hotel transfers. Best Magnus alternative.",readTime:"13 min read",imageUrl:"/trezzoapp/images/credit-cards/atlas-mk.png",date:"2025-12-13",tags:["credit-card","axis","travel","miles","premium"],content:`
+  `},ng={id:"axis-atlas-credit-card",title:"Axis Bank Atlas Credit Card Review",excerpt:"Travel card with Edge Miles system offering up to 7% return via ITC/Accor hotel transfers. Best Magnus alternative.",readTime:"13 min read",imageUrl:"/images/credit-cards/atlas-mk.png",date:"2025-12-13",tags:["credit-card","axis","travel","miles","premium"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 dark:from-slate-800/60 dark:via-blue-900/30 dark:to-slate-800/60 rounded-xl border border-blue-200/50 dark:border-blue-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">Axis Bank Atlas Credit Card: Premium Miles Card with ITC & Airline Transfers</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -4813,7 +4813,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information sourced from CardExpert.in | Benefits subject to change by Axis Bank
     </p>
-  `},og={id:"scapia-federal-credit-card",title:"Scapia Federal Bank Credit Card Review",excerpt:"Best free travel card of 2025 with 0% forex markup, 2% base rewards, and unique airport privileges.",readTime:"11 min read",imageUrl:"/trezzoapp/images/credit-cards/scapia-mk.png",date:"2025-12-13",tags:["credit-card","scapia","federal","travel","free","forex"],content:`
+  `},og={id:"scapia-federal-credit-card",title:"Scapia Federal Bank Credit Card Review",excerpt:"Best free travel card of 2025 with 0% forex markup, 2% base rewards, and unique airport privileges.",readTime:"11 min read",imageUrl:"/images/credit-cards/scapia-mk.png",date:"2025-12-13",tags:["credit-card","scapia","federal","travel","free","forex"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-teal-50 via-cyan-50 to-teal-50 dark:from-slate-800/60 dark:via-teal-900/30 dark:to-slate-800/60 rounded-xl border border-teal-200/50 dark:border-teal-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">Scapia Federal Bank Credit Card: Best Free Travel Card of 2025</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -4979,7 +4979,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information sourced from CardExpert.in | Benefits subject to change by Scapia/Federal Bank
     </p>
-  `},dg={id:"sbi-cashback-credit-card",title:"SBI Cashback Credit Card Review - Save 5% Online",excerpt:"Best cashback credit card in India (and the world!) with industry-leading 5% cashback on online spends.",readTime:"10 min read",imageUrl:"/trezzoapp/images/credit-cards/sbicc-mk.png",date:"2025-12-13",tags:["credit-card","sbi","cashback","online","best"],content:`
+  `},dg={id:"sbi-cashback-credit-card",title:"SBI Cashback Credit Card Review - Save 5% Online",excerpt:"Best cashback credit card in India (and the world!) with industry-leading 5% cashback on online spends.",readTime:"10 min read",imageUrl:"/images/credit-cards/sbicc-mk.png",date:"2025-12-13",tags:["credit-card","sbi","cashback","online","best"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-violet-50 via-purple-50 to-violet-50 dark:from-slate-800/60 dark:via-violet-900/30 dark:to-slate-800/60 rounded-xl border border-violet-200/50 dark:border-violet-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">SBI Cashback Credit Card: The Undisputed Cashback King</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
@@ -5139,7 +5139,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     <p class="text-xs text-slate-500 dark:text-slate-400 mt-8 pt-4 border-t border-slate-200 dark:border-slate-700">
       <strong>Last Updated:</strong> December 2025 | Information sourced from CardExpert.in | Benefits subject to change by SBI Card
     </p>
-  `},cg={id:"hdfc-tata-neu-infinity-credit-card",title:"HDFC Bank Tata Neu Infinity Credit Card Review",excerpt:"Best UPI credit card in 2025 with up to 10% NeuCoins on Tata brands, 5% on bill payments, and low 2% forex markup.",readTime:"11 min read",imageUrl:"/trezzoapp/images/credit-cards/infinity-mk.png",date:"2025-12-13",tags:["credit-card","hdfc","tata-neu","upi","rupay","cashback"],content:`
+  `},cg={id:"hdfc-tata-neu-infinity-credit-card",title:"HDFC Bank Tata Neu Infinity Credit Card Review",excerpt:"Best UPI credit card in 2025 with up to 10% NeuCoins on Tata brands, 5% on bill payments, and low 2% forex markup.",readTime:"11 min read",imageUrl:"/images/credit-cards/infinity-mk.png",date:"2025-12-13",tags:["credit-card","hdfc","tata-neu","upi","rupay","cashback"],content:`
     <div class="mb-6 p-6 bg-gradient-to-br from-purple-50 via-violet-50 to-purple-50 dark:from-slate-800/60 dark:via-purple-900/30 dark:to-slate-800/60 rounded-xl border border-purple-200/50 dark:border-purple-500/30 shadow-lg dark:shadow-xl">
       <h2 class="text-2xl font-serif font-bold mb-4 text-slate-900 dark:text-white">HDFC Bank Tata Neu Infinity Credit Card: Best UPI Credit Card 2025</h2>
       <p class="mb-3 text-slate-700 dark:text-slate-200 leading-relaxed">
