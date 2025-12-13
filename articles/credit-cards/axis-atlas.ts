@@ -5,7 +5,7 @@ export const axisAtlasArticle: Article = {
   title: 'Axis Bank Atlas Credit Card Review',
   excerpt: 'Travel card with Edge Miles system offering up to 7% return via ITC/Accor hotel transfers. Best Magnus alternative.',
   readTime: '13 min read',
-  imageUrl: '/trezzoapp/images/credit-cards/atlas-mk.png',
+  imageUrl: '/images/credit-cards/atlas-mk.png',
   date: '2025-12-13',
   tags: ['credit-card', 'axis', 'travel', 'miles', 'premium'],
   content: `

@@ -7,7 +7,7 @@ export const amexPlatinumChargeArticle: Article = {
   date: '2024-02-01',
   readTime: '15 min',
   tags: ['credit cards', 'ultra premium', 'charge card', 'american express', 'lifestyle'],
-  imageUrl: '/trezzoapp/images/credit-cards/amex-mk.png',
+  imageUrl: '/images/credit-cards/amex-mk.png',
   content: `
     <div class="article-container">
       <section class="article-section">

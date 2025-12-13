@@ -5,7 +5,7 @@ export const hdfcTataNeuInfinityArticle: Article = {
   title: 'HDFC Bank Tata Neu Infinity Credit Card Review',
   excerpt: 'Best UPI credit card in 2025 with up to 10% NeuCoins on Tata brands, 5% on bill payments, and low 2% forex markup.',
   readTime: '11 min read',
-  imageUrl: '/trezzoapp/images/credit-cards/infinity-mk.png',
+  imageUrl: '/images/credit-cards/infinity-mk.png',
   date: '2025-12-13',
   tags: ['credit-card', 'hdfc', 'tata-neu', 'upi', 'rupay', 'cashback'],
   content: `

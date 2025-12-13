@@ -5,7 +5,7 @@ export const idfcMayuraArticle: Article = {
   title: 'IDFC FIRST Bank Mayura Credit Card Review',
   excerpt: 'Premium metal card with 0% forex markup, 3.3% reward rate on travel, and up to 6.6% on accelerated spends.',
   readTime: '12 min read',
-  imageUrl: '/trezzoapp/images/credit-cards/mayura-mk.png',
+  imageUrl: '/images/credit-cards/mayura-mk.png',
   date: '2025-12-13',
   tags: ['credit-card', 'idfc', 'travel', 'forex', 'premium'],
   content: `

@@ -213,7 +213,7 @@ export const axisMagnusBurgundyArticle: Article = {
       <p class="text-slate-700 dark:text-slate-300 text-sm">⚠️ <span class="font-semibold text-slate-900 dark:text-white">Key Consideration:</span> Be aware of the long list of exclusions including utilities, insurance, and gold purchases. The card caps Group A redemptions at 2L points per year.</p>
     </div>
   `,
-  imageUrl: '/trezzoapp/images/credit-cards/m4b-mk.png',
+  imageUrl: '/images/credit-cards/m4b-mk.png',
   date: 'Dec 1, 2025',
   readTime: '6 min',
   tags: ['HNI', 'Premium', 'Rewards', 'Travel'],
