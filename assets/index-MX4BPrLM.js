@@ -1878,7 +1878,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
         </div>
       </section>
     </div>
-  `},Ph={id:"amex-platinum-charge",title:"American Express Platinum Charge Card Review - Ultra Premium Metal Card",excerpt:"In-depth review of the Amex Platinum Charge Card with Marriott Gold Elite tier, hotel memberships, lifestyle benefits, and comprehensive travel concierge services.",date:"2024-02-01",readTime:"15 min",tags:["credit cards","ultra premium","charge card","american express","lifestyle"],imageUrl:"/trezzoapp/trezzoapp/images/credit-cards/amex-mk.png",content:`
+  `},Ph={id:"amex-platinum-charge",title:"American Express Platinum Charge Card Review - Ultra Premium Metal Card",excerpt:"In-depth review of the Amex Platinum Charge Card with Marriott Gold Elite tier, hotel memberships, lifestyle benefits, and comprehensive travel concierge services.",date:"2024-02-01",readTime:"15 min",tags:["credit cards","ultra premium","charge card","american express","lifestyle"],imageUrl:"/trezzoapp/images/credit-cards/amex-mk.png",content:`
     <div class="article-container">
       <section class="article-section">
         <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-white mb-4">Overview</h2>
