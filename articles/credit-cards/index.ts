@@ -17,6 +17,7 @@ import { hdfcRegaliaGoldArticle } from './hdfc-regalia-gold';
 import { axisAtlasArticle } from './axis-atlas';
 import { scapiaFederalArticle } from './scapia-federal';
 import { sbiCashbackArticle } from './sbi-cashback';
+import { hdfcTataNeuInfinityArticle } from './hdfc-tata-neu-infinity';
 
 // Helper to generate placeholder content
 const generateContent = (topic: string) => `
@@ -56,6 +57,7 @@ export const creditCardsArticles: Article[] = [
   axisAtlasArticle,
   scapiaFederalArticle,
   sbiCashbackArticle,
+  hdfcTataNeuInfinityArticle,
   axisMagnusBurgundyArticle,
   hdfcInfiniaArticle,
   standardCharteredUltimateArticle,
