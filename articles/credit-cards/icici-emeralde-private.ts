@@ -7,7 +7,7 @@ export const iciciBmeraldeprivateArticle: Article = {
   date: '2024-03-15',
   readTime: '13 min',
   tags: ['credit cards', 'super premium', 'metal card', 'icici bank', 'rewards'],
-  imageUrl: '/images/credit-cards/epm-mk.png',
+  imageUrl: '/trezzoapp/images/credit-cards/epm-mk.png',
   content: `
     <div class="article-container">
       <section class="article-section">

@@ -7,7 +7,7 @@ export const standardCharteredUltimateArticle: Article = {
   date: '2024-01-15',
   readTime: '12 min',
   tags: ['credit cards', 'super premium', 'rewards', 'standard chartered'],
-  imageUrl: '/images/credit-cards/sc-mk.png',
+  imageUrl: '/trezzoapp/images/credit-cards/sc-mk.png',
   content: `
     <div class="article-container">
       <section class="article-section">

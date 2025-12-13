@@ -5,7 +5,7 @@ export const hdfcMarriottBonvoyArticle: Article = {
   title: 'HDFC Bank Marriott Bonvoy Credit Card Review',
   excerpt: 'Co-brand Travel Card with Free Night Awards - Best for Marriott loyalists',
   readTime: '14 min read',
-  imageUrl: '/images/credit-cards/mb-mk.png',
+  imageUrl: '/trezzoapp/images/credit-cards/mb-mk.png',
   date: '2025-12-11',
   tags: ['credit-card', 'hdfc', 'marriott', 'travel'],
   content: `

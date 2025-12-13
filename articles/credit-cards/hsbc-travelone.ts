@@ -224,7 +224,7 @@ export const hsbcTravelOneArticle: Article = {
       <p class="text-slate-700 dark:text-slate-300 text-sm">Recommendation: Consider this card if you frequently book hotels or OTAs and can take advantage of transfers (Accor in particular). If your spends are concentrated in other categories, compare with Axis Atlas and Amex Platinum Travel before deciding.</p>
     </div>
   `,
-  imageUrl: '/images/credit-cards/travelone.png',
+  imageUrl: '/trezzoapp/images/credit-cards/travelone.png',
   date: 'Dec 1, 2025',
   readTime: '5 min',
   tags: ['Travel', 'HSBC', 'Rewards'],

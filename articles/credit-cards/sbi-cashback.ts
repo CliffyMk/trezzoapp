@@ -5,7 +5,7 @@ export const sbiCashbackArticle: Article = {
   title: 'SBI Cashback Credit Card Review - Save 5% Online',
   excerpt: 'Best cashback credit card in India (and the world!) with industry-leading 5% cashback on online spends.',
   readTime: '10 min read',
-  imageUrl: '/images/credit-cards/sbicc-mk.png',
+  imageUrl: '/trezzoapp/images/credit-cards/sbicc-mk.png',
   date: '2025-12-13',
   tags: ['credit-card', 'sbi', 'cashback', 'online', 'best'],
   content: `

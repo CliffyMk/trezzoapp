@@ -5,7 +5,7 @@ export const hdfcBizBlackArticle: Article = {
   title: 'HDFC Bank BizBlack Credit Card Review',
   excerpt: 'Business Credit Card with 5X rewards on tax payments - Best for entrepreneurs',
   readTime: '16 min read',
-  imageUrl: '/images/credit-cards/hdfc-bizblack.jpg',
+  imageUrl: '/trezzoapp/images/credit-cards/hdfc-bizblack.jpg',
   date: '2025-12-11',
   tags: ['credit-card', 'hdfc', 'business', 'tax-rewards'],
   content: `

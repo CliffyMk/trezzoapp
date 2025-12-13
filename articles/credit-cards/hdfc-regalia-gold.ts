@@ -5,7 +5,7 @@ export const hdfcRegaliaGoldArticle: Article = {
   title: 'HDFC Bank Regalia Gold Credit Card Review',
   excerpt: 'Premium lifestyle card with Priority Pass for add-on members, quarterly milestones, and airport transfers.',
   readTime: '14 min read',
-  imageUrl: '/images/credit-cards/regalia.png',
+  imageUrl: '/trezzoapp/images/credit-cards/regalia.png',
   date: '2025-12-13',
   tags: ['credit-card', 'hdfc', 'travel', 'lounge', 'premium'],
   content: `

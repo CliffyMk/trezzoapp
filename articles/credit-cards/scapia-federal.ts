@@ -5,7 +5,7 @@ export const scapiaFederalArticle: Article = {
   title: 'Scapia Federal Bank Credit Card Review',
   excerpt: 'Best free travel card of 2025 with 0% forex markup, 2% base rewards, and unique airport privileges.',
   readTime: '11 min read',
-  imageUrl: '/images/credit-cards/scapia-mk.png',
+  imageUrl: '/trezzoapp/images/credit-cards/scapia-mk.png',
   date: '2025-12-13',
   tags: ['credit-card', 'scapia', 'federal', 'travel', 'free', 'forex'],
   content: `

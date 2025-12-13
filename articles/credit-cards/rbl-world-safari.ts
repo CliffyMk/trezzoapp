@@ -5,7 +5,7 @@ export const rblWorldSafariArticle: Article = {
   title: 'RBL Bank World Safari Credit Card Review',
   excerpt: 'Travel Credit Card with 0% forex markup - Best for international travelers',
   readTime: '13 min read',
-  imageUrl: '/images/credit-cards/world-safari-mk.png',
+  imageUrl: '/trezzoapp/images/credit-cards/world-safari-mk.png',
   date: '2025-12-11',
   tags: ['credit-card', 'rbl', 'travel', 'forex'],
   content: `
