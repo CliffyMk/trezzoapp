@@ -1,89 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trezzo</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              serif: ['Playfair Display', 'serif'],
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trezzo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+          },
+          colors: {
+            gold: {
+              50: '#FDF9F0',
+              100: '#FAF0DB',
+              200: '#F2DEB3',
+              300: '#E8C87A',
+              400: '#D4AF37',
+              500: '#C9A227',
+              600: '#A8861F',
+              700: '#7D6318',
+              800: '#564412',
+              900: '#30260A',
             },
-            colors: {
-              gold: {
-                50: '#FCF9F0',
-                100: '#F7F1DB',
-                200: '#EADFA9',
-                300: '#DEC678',
-                400: '#D4AF37', // Metallic Gold
-                500: '#C59D2E', // Primary Luxury Gold (Darker, more metallic)
-                600: '#A07D20',
-                700: '#755916',
-                800: '#523E12',
-                900: '#2E2209',
-              },
-              dark: {
-                800: '#141414',
-                900: '#0a0a0a',
-                950: '#020202', // True Void Black
-              }
-            },
-            animation: {
-              'fade-in': 'fadeIn 0.8s ease-out forwards',
-              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
-              'loader-width': 'loaderWidth 2s ease-in-out forwards',
-            },
-            keyframes: {
-              fadeIn: {
-                '0%': { opacity: '0' },
-                '100%': { opacity: '1' },
-              },
-              fadeInUp: {
-                '0%': { opacity: '0', transform: 'translateY(20px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-              loaderWidth: {
-                '0%': { width: '0%' },
-                '100%': { width: '100%' },
-              }
+            dark: {
+              700: '#1a1a1f',
+              800: '#141418',
+              900: '#0d0d10',
+              950: '#08080a',
             }
           },
+          animation: {
+            'fade-in': 'fadeIn 0.8s ease-out forwards',
+            'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            'loader-width': 'loaderWidth 2s ease-in-out forwards',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            loaderWidth: {
+              '0%': { width: '0%' },
+              '100%': { width: '100%' },
+            }
+          }
         },
-      }
-    </script>
-    <style>
-      /* Custom scrollbar for webkit */
-      ::-webkit-scrollbar {
-        width: 4px;
-      }
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #333;
-        border-radius: 2px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #C59D2E;
-      }
-      .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-      }
-      .scrollbar-hide {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-      }
-    </style>
+      },
+    }
+  </script>
+  <style>
+    /* Font smoothing for crisp text rendering */
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
 
-<link rel="stylesheet" href="/index.css">
+    /* Custom scrollbar for webkit */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #2a2a30;
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #C9A227;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Improved text selection */
+    ::selection {
+      background-color: rgba(201, 162, 39, 0.3);
+      color: #F2DEB3;
+    }
+  </style>
+
+  <link rel="stylesheet" href="/index.css">
   <script type="importmap">
 {
   "imports": {
@@ -95,9 +117,12 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/trezzoapp/assets/index-CsqfSH1M.js"></script>
+  <script type="module" crossorigin src="/trezzoapp/assets/index-MX4BPrLM.js"></script>
 </head>
-  <body class="bg-slate-50 text-slate-900 dark:bg-[#050505] dark:text-slate-300 transition-colors duration-500 antialiased">
-    <div id="root"></div>
+
+<body
+  class="bg-slate-50 text-slate-900 dark:bg-dark-900 dark:text-slate-200 transition-colors duration-500 antialiased">
+  <div id="root"></div>
 </body>
+
 </html>
