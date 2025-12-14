@@ -72,5 +72,12 @@ export const CATEGORIES: Category[] = [
     description: 'Productivity, wellness, and building a sustainable career.',
     articles: allArticles['work-life'],
   },
+  {
+    id: 'global-economy',
+    name: 'Global Economy',
+    iconName: 'Globe',
+    description: 'Macro trends, AI economics, and forces shaping markets.',
+    articles: allArticles['global-economy'],
+  },
 ];
 

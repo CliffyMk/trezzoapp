@@ -10,6 +10,7 @@ import { budgetingArticles } from './budgeting';
 import { philosophyArticles } from './philosophy';
 import { luxuryTravelArticles } from './luxury-travel';
 import { workLifeArticles } from './work-life';
+import { globalEconomyArticles } from './global-economy';
 
 export const allArticles = {
   'credit-cards': creditCardsArticles,
@@ -22,5 +23,7 @@ export const allArticles = {
   'philosophy': philosophyArticles,
   'luxury-travel': luxuryTravelArticles,
   'work-life': workLifeArticles,
+  'global-economy': globalEconomyArticles,
 };
+
 

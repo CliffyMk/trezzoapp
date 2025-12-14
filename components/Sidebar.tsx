@@ -74,7 +74,7 @@ const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, setMobileOpen }) => {
 
   // Group Categories for better structure
   const wealthCategories = CATEGORIES.filter(c =>
-    ['credit-cards', 'investing-basics', 'retirement', 'budgeting', 'philosophy', 'work-life'].includes(c.id)
+    ['credit-cards', 'investing-basics', 'retirement', 'budgeting', 'philosophy', 'work-life', 'global-economy'].includes(c.id)
   );
   const wanderCategories = CATEGORIES.filter(c =>
     ['airline-miles', 'hotel-status', 'luxury-travel', 'digital-nomad'].includes(c.id)
