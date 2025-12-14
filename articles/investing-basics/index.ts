@@ -1,5 +1,6 @@
 import { Article } from '../../types';
 import { premiumRsStrategyArticle } from './premium-rs-strategy';
+import { fiveEmaStrategyArticle } from './five-ema-strategy';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -32,6 +33,7 @@ const generateContent = (topic: string) => `
 `;
 
 export const investingBasicsArticles: Article[] = [
+  fiveEmaStrategyArticle,
   premiumRsStrategyArticle,
   {
     id: 'etf-vs-mutual-funds',
