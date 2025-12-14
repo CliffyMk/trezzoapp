@@ -1,4 +1,5 @@
 import { Article } from '../../types';
+import { courageToBeDislikedArticle } from './courage-to-be-disliked';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -30,6 +31,7 @@ const generateContent = (topic: string) => `
 `;
 
 export const philosophyArticles: Article[] = [
+    courageToBeDislikedArticle,
     {
         id: 'stoicism-modern-life',
         title: 'Stoicism for Modern Life',
