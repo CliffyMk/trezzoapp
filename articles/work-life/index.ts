@@ -1,5 +1,6 @@
 import { Article } from '../../types';
 import { actionTrapArticle } from './action-trap';
+import { fourHourWorkWeekArticle } from './four-hour-work-week';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -31,6 +32,7 @@ const generateContent = (topic: string) => `
 `;
 
 export const workLifeArticles: Article[] = [
+    fourHourWorkWeekArticle,
     actionTrapArticle,
     {
         id: 'remote-work-productivity',

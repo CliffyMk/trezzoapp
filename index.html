@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
     rel="stylesheet">
   <script>
     tailwind.config = {
@@ -17,9 +17,10 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
-            serif: ['Playfair Display', 'Georgia', 'serif'],
-            reading: ['Source Serif 4', 'Georgia', 'serif'],
+            sans: ['Inter', 'Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+            serif: ['Newsreader', 'Playfair Display', 'Georgia', 'serif'],
+            display: ['Inter', 'system-ui', 'sans-serif'],
+            reading: ['Newsreader', 'Georgia', 'serif'],
           },
           colors: {
             gold: {
@@ -73,60 +74,86 @@
     }
 
     /* ============================================
-       ARTICLE CONTENT TYPOGRAPHY - SUPER READABLE
+       ARTICLE CONTENT TYPOGRAPHY - MASTER CLASS
        ============================================ */
 
     /* Article container - use reading font */
     .article-content {
-      font-family: 'Source Serif 4', Georgia, serif;
+      font-family: 'Newsreader', Georgia, serif;
       font-size: 1.125rem;
-      line-height: 1.9;
-      letter-spacing: 0.015em;
-      word-spacing: 0.05em;
+      /* 18px */
+      line-height: 1.6;
+      /* 160% Rule */
+      max-width: 65ch;
+      /* 60-Character Rule */
+      margin-left: auto;
+      margin-right: auto;
+      color: #334155;
+      /* slate-700 equivalent */
+    }
+
+    .dark .article-content {
+      color: #cbd5e1;
+      /* slate-300 equivalent */
     }
 
     /* Paragraphs in articles */
     .article-content p {
-      margin-bottom: 1.75rem;
+      margin-bottom: 1.5em;
       font-weight: 400;
-      line-height: 1.9;
-      letter-spacing: 0.02em;
-      word-spacing: 0.08em;
+      line-height: 1.6;
     }
 
-    /* List items more readable */
+    /* List items */
     .article-content li {
-      line-height: 1.85;
-      margin-bottom: 0.75rem;
-      letter-spacing: 0.015em;
+      line-height: 1.6;
+      margin-bottom: 0.5rem;
     }
 
-    /* Headings in articles */
+    .article-content ul,
+    .article-content ol {
+      margin-bottom: 1.5em;
+    }
+
+    /* Headings in articles - Inter */
+    .article-content h1,
     .article-content h2,
     .article-content h3,
     .article-content h4 {
-      font-family: 'Playfair Display', Georgia, serif;
-      letter-spacing: 0.01em;
-      line-height: 1.4;
-      margin-top: 2.5rem;
-      margin-bottom: 1.25rem;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      /* Tight tracking for headings */
+      line-height: 1.2;
+      /* 120% Rule */
+      color: #0f172a;
+      /* slate-900 */
+      margin-top: 2em;
+      margin-bottom: 0.8em;
+    }
+
+    .dark .article-content h1,
+    .dark .article-content h2,
+    .dark .article-content h3,
+    .dark .article-content h4 {
+      color: #f8fafc;
+      /* white/slate-50 */
+    }
+
+    /* Hierarchy Scale */
+    .article-content h2 {
+      font-size: 2rem;
+      /* ~32px */
+    }
+
+    .article-content h3 {
+      font-size: 1.5rem;
+      /* ~24px */
     }
 
     /* Strong text */
     .article-content strong {
       font-weight: 600;
-      letter-spacing: 0.01em;
-    }
-
-    /* Tables more readable */
-    .article-content table {
-      font-size: 0.95rem;
-      letter-spacing: 0.01em;
-    }
-
-    .article-content td {
-      padding: 0.875rem 1rem;
-      line-height: 1.6;
     }
 
     /* Callout boxes */
@@ -134,8 +161,7 @@
     .article-content .p-4,
     .article-content .p-6 {
       font-size: 1rem;
-      line-height: 1.75;
-      letter-spacing: 0.015em;
+      line-height: 1.6;
     }
 
     /* Custom scrollbar for webkit */

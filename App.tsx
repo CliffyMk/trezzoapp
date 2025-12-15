@@ -58,7 +58,7 @@ const CategoryPage = () => {
         <div className="pt-8 flex flex-col md:flex-row gap-8 items-start md:items-end justify-between">
           <div className="max-w-3xl relative z-10">
             <span className="text-gold-500 font-bold tracking-[0.2em] text-xs uppercase mb-4 block">Editorial Collection</span>
-            <h1 className="text-5xl md:text-7xl font-serif font-medium mb-6 text-slate-900 dark:text-white tracking-tight leading-none">
+            <h1 className="text-5xl md:text-7xl font-sans font-bold mb-6 text-slate-900 dark:text-white tracking-tight leading-none">
               {category.name}
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed font-light border-l border-slate-200 dark:border-white/[0.08] pl-6 ml-1">
@@ -117,7 +117,7 @@ const ArticlePage = () => {
           <span className="flex items-center gap-2">{article.readTime} read</span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-serif font-medium text-slate-900 dark:text-white mb-10 leading-[1.1]">
+        <h1 className="text-4xl md:text-6xl font-sans font-bold text-slate-900 dark:text-white mb-10 leading-[1.1]">
           {article.title}
         </h1>
 
@@ -127,9 +127,7 @@ const ArticlePage = () => {
         </div>
       </header>
 
-      <article className="prose prose-lg dark:prose-invert prose-slate max-w-none article-content
-        prose-headings:font-serif prose-headings:font-medium prose-headings:text-slate-900 dark:prose-headings:text-white 
-        prose-p:leading-loose prose-p:text-slate-700 dark:prose-p:text-slate-300
+      <article className="prose prose-lg dark:prose-invert prose-slate mx-auto article-content
         prose-a:text-gold-600 dark:prose-a:text-gold-500 hover:prose-a:text-gold-400 
         prose-blockquote:border-l-gold-500 prose-blockquote:text-xl prose-blockquote:font-serif prose-blockquote:italic
         prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-semibold
@@ -232,7 +230,7 @@ const HomePage = () => {
       {/* Latest Intelligence Grid */}
       <section className="mb-24">
         <div className="flex items-center gap-4 mb-12 border-b border-slate-200 dark:border-white/[0.06] pb-4">
-          <h2 className="text-2xl font-serif font-medium text-slate-900 dark:text-white">Latest Intelligence</h2>
+          <h2 className="text-2xl font-sans font-medium text-slate-900 dark:text-white">Latest Intelligence</h2>
           <div className="h-px flex-1 bg-slate-200 dark:bg-white/[0.06]"></div>
           <Link to="/category/credit-cards" className="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-gold-500 transition-colors">View All</Link>
         </div>
