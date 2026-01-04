@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import {
   CreditCard, Plane, Hotel, TrendingUp, Umbrella, Laptop,
   PieChart, BookOpen, Gem, Heart, ChevronLeft, ChevronRight,
-  X, Search, Briefcase, Compass, Globe
+  X, Search, Briefcase, Compass, Globe, Gamepad2
 } from 'lucide-react';
 import { CATEGORIES } from '../constants';
 import ThemeToggle from './ThemeToggle';
@@ -67,10 +67,11 @@ const NavItem: React.FC<NavItemProps> = ({ category, collapsed, setMobileOpen })
 interface SidebarProps {
   mobileOpen: boolean;
   setMobileOpen: (open: boolean) => void;
+  collapsed: boolean;
+  setCollapsed: (collapsed: boolean) => void;
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, setMobileOpen }) => {
-  const [collapsed, setCollapsed] = useState(false);
+const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, setMobileOpen, collapsed, setCollapsed }) => {
 
   // Group Categories for better structure
   const wealthCategories = CATEGORIES.filter(c =>
@@ -180,6 +181,42 @@ const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, setMobileOpen }) => {
             <div className="space-y-1">
               {wanderCategories.map(cat => <NavItem key={cat.id} category={cat} collapsed={collapsed} setMobileOpen={setMobileOpen} />)}
             </div>
+          </div>
+
+          {/* Navigation Group: Play */}
+          <div>
+            <NavLink
+              to="/play"
+              onClick={() => setMobileOpen(false)}
+              className={({ isActive }) => `
+                flex items-center gap-3 px-3 py-2.5 rounded-md transition-all duration-200 group relative
+                ${collapsed ? 'justify-center px-2' : ''}
+                ${isActive ? 'bg-slate-100 dark:bg-white/[0.08] text-slate-900 dark:text-white' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-white/[0.04] hover:text-slate-900 dark:hover:text-slate-200'}
+              `}
+            >
+              {({ isActive }) => (
+                <>
+                  {isActive && !collapsed && (
+                    <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-5 bg-gold-500 rounded-r-sm shadow-[0_0_8px_rgba(201,162,39,0.4)]"></span>
+                  )}
+                  <Gamepad2
+                    size={collapsed ? 20 : 18}
+                    strokeWidth={isActive ? 2 : 1.5}
+                    className={`shrink-0 transition-colors duration-200 ${isActive ? 'text-gold-500' : 'group-hover:text-gold-500'}`}
+                  />
+                  {!collapsed && (
+                    <span className={`text-[13px] font-medium tracking-wide truncate transition-all`}>
+                      Play
+                    </span>
+                  )}
+                  {collapsed && (
+                    <div className="absolute left-14 z-50 bg-dark-800 text-white text-[11px] font-semibold uppercase tracking-wider px-3 py-2 rounded shadow-xl border border-white/[0.08] opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity whitespace-nowrap">
+                      Play
+                    </div>
+                  )}
+                </>
+              )}
+            </NavLink>
           </div>
         </div>
 

@@ -5,10 +5,18 @@ import { Menu } from 'lucide-react';
 
 const Layout = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+  const location = useLocation();
+
+  React.useEffect(() => {
+    if (location.pathname === '/play') {
+      setCollapsed(true);
+    }
+  }, [location.pathname]);
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-dark-900 text-slate-900 dark:text-slate-100 font-sans selection:bg-gold-500/30 selection:text-gold-200 overflow-x-hidden">
-      
+
       {/* Subtle Background Glow for Premium feel */}
       <div className="fixed inset-0 pointer-events-none z-0">
         <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] rounded-full bg-blue-900/5 dark:bg-gold-500/[0.03] blur-[120px]"></div>
@@ -16,24 +24,29 @@ const Layout = () => {
       </div>
 
       {/* Sidebar Navigation */}
-      <Sidebar mobileOpen={mobileOpen} setMobileOpen={setMobileOpen} />
+      <Sidebar
+        mobileOpen={mobileOpen}
+        setMobileOpen={setMobileOpen}
+        collapsed={collapsed}
+        setCollapsed={setCollapsed}
+      />
 
       {/* Main Content Area */}
-      <div className="relative z-10 md:pl-24 lg:pl-80 transition-all duration-500 min-h-screen flex flex-col">
-        
+      <div className={`relative z-10 transition-all duration-500 min-h-screen flex flex-col ${collapsed ? 'md:pl-20' : 'md:pl-24 lg:pl-80'}`}>
+
         {/* Mobile Header */}
         <div className="md:hidden sticky top-0 z-30 bg-white/80 dark:bg-dark-900/90 backdrop-blur-md border-b border-slate-200 dark:border-white/[0.06] px-6 h-16 flex items-center justify-between">
-           <div className="flex items-center gap-4">
-             <button 
-                onClick={() => setMobileOpen(true)}
-                className="text-slate-600 dark:text-slate-400 hover:text-gold-500 transition-colors"
-              >
-                <Menu size={24} />
-              </button>
-              <span className="font-serif font-medium text-xl tracking-widest text-slate-900 dark:text-white">
-                TRE<span className="text-gold-500 italic">ZZO</span>
-              </span>
-           </div>
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => setMobileOpen(true)}
+              className="text-slate-600 dark:text-slate-400 hover:text-gold-500 transition-colors"
+            >
+              <Menu size={24} />
+            </button>
+            <span className="font-serif font-medium text-xl tracking-widest text-slate-900 dark:text-white">
+              TRE<span className="text-gold-500 italic">ZZO</span>
+            </span>
+          </div>
         </div>
 
         {/* Page Content */}

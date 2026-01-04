@@ -1,6 +1,7 @@
 import { Article } from '../../types';
 import { courageToBeDislikedArticle } from './courage-to-be-disliked';
 import { mansSearchForMeaningArticle } from './mans-search-for-meaning';
+import { aiSleeperIndustryContent } from './ai-sleeper-industry';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -32,26 +33,36 @@ const generateContent = (topic: string) => `
 `;
 
 export const philosophyArticles: Article[] = [
-    mansSearchForMeaningArticle,
-    courageToBeDislikedArticle,
-    {
-        id: 'stoicism-modern-life',
-        title: 'Stoicism for Modern Life',
-        excerpt: 'Ancient wisdom meets modern challenges. How Marcus Aurelius can help you navigate today\'s world.',
-        content: generateContent('Stoicism'),
-        imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80',
-        date: 'Dec 10, 2025',
-        readTime: '8 min',
-        tags: ['Philosophy', 'Stoicism', 'Mindset'],
-    },
-    {
-        id: 'mindfulness-philosophy',
-        title: 'The Philosophy of Mindfulness',
-        excerpt: 'Beyond meditation apps. Understanding the deep roots of present-moment awareness.',
-        content: generateContent('Mindfulness'),
-        imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=80',
-        date: 'Dec 8, 2025',
-        readTime: '6 min',
-        tags: ['Philosophy', 'Mindfulness', 'Wellness'],
-    },
+  mansSearchForMeaningArticle,
+  courageToBeDislikedArticle,
+  {
+    id: 'ai-sleeper-industry',
+    title: 'The Sleeper Industry That Will 100x Because of AI',
+    excerpt: "The gold rush isn't in AI models. It's in the bottleneck no one's paying attention to. Here's the contrarian opportunity.",
+    content: aiSleeperIndustryContent,
+    imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '12 min',
+    tags: ['AI', 'Entrepreneurship', 'Opportunity', 'Business'],
+  },
+  {
+    id: 'stoicism-modern-life',
+    title: 'Stoicism for Modern Life',
+    excerpt: 'Ancient wisdom meets modern challenges. How Marcus Aurelius can help you navigate today\'s world.',
+    content: generateContent('Stoicism'),
+    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80',
+    date: 'Dec 10, 2025',
+    readTime: '8 min',
+    tags: ['Philosophy', 'Stoicism', 'Mindset'],
+  },
+  {
+    id: 'mindfulness-philosophy',
+    title: 'The Philosophy of Mindfulness',
+    excerpt: 'Beyond meditation apps. Understanding the deep roots of present-moment awareness.',
+    content: generateContent('Mindfulness'),
+    imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=80',
+    date: 'Dec 8, 2025',
+    readTime: '6 min',
+    tags: ['Philosophy', 'Mindfulness', 'Wellness'],
+  },
 ];

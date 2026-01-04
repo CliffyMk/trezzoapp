@@ -30,7 +30,41 @@ const generateContent = (topic: string) => `
   </p>
 `;
 
+import { accorGuideContent } from './accor-guide';
+import { clubItcGuideContent } from './club-itc-guide';
+import { ihclGuideContent } from './ihcl-guide';
+
 export const hotelStatusArticles: Article[] = [
+  {
+    id: 'accor-ultimate-guide',
+    title: 'ALL Accor: The Complete Indian Guide',
+    excerpt: 'Your ultimate guide to Accor Live Limitless. From 50% dining discounts to free nights at Raffles, master the second-largest hotel chain in the world.',
+    content: accorGuideContent,
+    imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '20 min',
+    tags: ['Hotels', 'Loyalty', 'India', 'Accor'],
+  },
+  {
+    id: 'club-itc-guide',
+    title: 'Club ITC: The Complete Indian Guide',
+    excerpt: "India's premier luxury hotel loyalty. Earn Green Points, unlock suite upgrades, and dine like royalty across 6 iconic brands.",
+    content: clubItcGuideContent,
+    imageUrl: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '18 min',
+    tags: ['Hotels', 'Loyalty', 'India', 'ITC'],
+  },
+  {
+    id: 'ihcl-taj-guide',
+    title: 'IHCL (Taj Hotels): The Complete Indian Guide',
+    excerpt: "From the legendary Taj Mahal Palace to Epicure dining benefits, master India's most iconic hospitality brand.",
+    content: ihclGuideContent,
+    imageUrl: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '15 min',
+    tags: ['Hotels', 'Loyalty', 'India', 'Taj', 'IHCL'],
+  },
   {
     id: 'hotel-lifetime-status',
     title: 'Is Lifetime Status Worth Chasing?',

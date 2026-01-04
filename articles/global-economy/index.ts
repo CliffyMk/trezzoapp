@@ -1,4 +1,7 @@
 import { Article } from '../../types';
+import { decentralizedAiContent } from './decentralized-ai';
+import { aiSleeperIndustryContent } from './ai-sleeper-industry';
+import { germanyProgrammingContent } from './germany-programming';
 
 export const aiCommoditiesArticle: Article = {
   id: 'ai-models-are-commodities-benedict-evans',
@@ -260,5 +263,35 @@ export const aiCommoditiesArticle: Article = {
 };
 
 export const globalEconomyArticles: Article[] = [
+  {
+    id: 'ai-sleeper-industry',
+    title: 'The Sleeper Industry That Will 100x Because of AI',
+    excerpt: "The gold rush isn't in AI models. It's in the bottleneck no one's paying attention to. Here's the opportunity hiding in plain sight.",
+    content: aiSleeperIndustryContent,
+    imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '12 min read',
+    tags: ['AI', 'Entrepreneurship', 'Opportunity', 'Business'],
+  },
+  {
+    id: 'decentralized-ai-bittensor',
+    title: 'The Intelligence Commons: Why the Next 100x is Decentralized AI',
+    excerpt: "The 'Walled Garden' era of AI is ending. Discover why the world's next brain won't be owned by Google or OpenAI, but by everyone.",
+    content: decentralizedAiContent,
+    imageUrl: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '15 min read',
+    tags: ['AI', 'Crypto', 'Bittensor', 'Web3', 'Future'],
+  },
+  {
+    id: 'germany-programming-dead',
+    title: "Programming In Germany Is Dead — A Developer's Autopsy Report",
+    excerpt: "From 70% taxation to 6-month visa waits. A 25-year veteran explains how Europe's largest economy killed its software industry.",
+    content: germanyProgrammingContent,
+    imageUrl: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&q=80',
+    date: 'Dec 26, 2025',
+    readTime: '15 min read',
+    tags: ['Germany', 'Programming', 'Economy', 'Tech'],
+  },
   aiCommoditiesArticle,
 ];

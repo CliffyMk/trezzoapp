@@ -5,7 +5,8 @@ import ArticleCard from './components/ArticleCard';
 import Loader from './components/Loader';
 import { CATEGORIES } from './constants';
 
-// Component to handle scroll-to-top on route changes
+import FlappyPage from './components/FlappyPage';
+
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
@@ -367,6 +368,7 @@ function App() {
               <Route index element={<HomePage />} />
               <Route path="category/:categoryId" element={<CategoryPage />} />
               <Route path="category/:categoryId/article/:articleId" element={<ArticlePage />} />
+              <Route path="play" element={<FlappyPage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Route>
           </Routes>

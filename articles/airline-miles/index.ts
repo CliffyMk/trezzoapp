@@ -30,7 +30,19 @@ const generateContent = (topic: string) => `
   </p>
 `;
 
+import { marriottGuideContent } from './marriott-guide';
+
 export const airlineMilesArticles: Article[] = [
+  {
+    id: 'marriott-ultimate-guide',
+    title: 'Marriott Bonvoy: The Complete Indian Guide',
+    excerpt: "Master the world's largest hotel loyalty program. From Gold status hacks to 5th night free awards, here's your roadmap to luxury stays.",
+    content: marriottGuideContent,
+    imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80',
+    date: 'Dec 25, 2025',
+    readTime: '25 min',
+    tags: ['Hotels', 'Loyalty', 'India', 'Marriott'],
+  },
   {
     id: 'miles-sweet-spots',
     title: 'Hidden Sweet Spots in Award Charts',

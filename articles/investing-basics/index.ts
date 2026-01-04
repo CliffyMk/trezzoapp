@@ -1,6 +1,7 @@
 import { Article } from '../../types';
 import { premiumRsStrategyArticle } from './premium-rs-strategy';
 import { fiveEmaStrategyArticle } from './five-ema-strategy';
+import { bitcoinRisksContent } from './bitcoin-risks';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -33,6 +34,16 @@ const generateContent = (topic: string) => `
 `;
 
 export const investingBasicsArticles: Article[] = [
+  {
+    id: 'bitcoin-risks',
+    title: "Why You Shouldn't Buy Bitcoin: 8+ Reasons From a Holder",
+    excerpt: "A raw, honest look at the risks everyone skips. Written by someone who holds Bitcoin — but still thinks most people shouldn't.",
+    content: bitcoinRisksContent,
+    imageUrl: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80',
+    date: 'Dec 26, 2025',
+    readTime: '12 min',
+    tags: ['Bitcoin', 'Crypto', 'Investing', 'Risk'],
+  },
   fiveEmaStrategyArticle,
   premiumRsStrategyArticle,
   {

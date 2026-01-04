@@ -1,6 +1,7 @@
 import { Article } from '../../types';
 import { actionTrapArticle } from './action-trap';
 import { fourHourWorkWeekArticle } from './four-hour-work-week';
+import { screenTimeContent } from './screen-time';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -32,26 +33,36 @@ const generateContent = (topic: string) => `
 `;
 
 export const workLifeArticles: Article[] = [
-    fourHourWorkWeekArticle,
-    actionTrapArticle,
-    {
-        id: 'remote-work-productivity',
-        title: 'Remote Work Productivity Secrets',
-        excerpt: 'Master the art of working from anywhere. Build routines that maximize output without burnout.',
-        content: generateContent('Remote Work Productivity'),
-        imageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80',
-        date: 'Dec 12, 2025',
-        readTime: '10 min',
-        tags: ['Work-Life', 'Productivity', 'Remote Work'],
-    },
-    {
-        id: 'burnout-prevention',
-        title: 'Preventing Burnout: A Complete Guide',
-        excerpt: 'Recognize the signs early and build sustainable habits. Your career is a marathon, not a sprint.',
-        content: generateContent('Burnout Prevention'),
-        imageUrl: 'https://images.unsplash.com/photo-1494599948593-3dafe8338d71?w=800&auto=format&fit=crop&q=80',
-        date: 'Dec 5, 2025',
-        readTime: '12 min',
-        tags: ['Work-Life', 'Wellness', 'Mental Health'],
-    },
+  {
+    id: 'screen-time-research',
+    title: "I'm a Psychologist and I Let My Kids Have Screen Time",
+    excerpt: "What the science actually says about screens, and why a child development psychologist stopped feeling guilty about Bluey.",
+    content: screenTimeContent,
+    imageUrl: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80',
+    date: 'Dec 26, 2025',
+    readTime: '15 min',
+    tags: ['Parenting', 'Psychology', 'Research', 'Work-Life'],
+  },
+  fourHourWorkWeekArticle,
+  actionTrapArticle,
+  {
+    id: 'remote-work-productivity',
+    title: 'Remote Work Productivity Secrets',
+    excerpt: 'Master the art of working from anywhere. Build routines that maximize output without burnout.',
+    content: generateContent('Remote Work Productivity'),
+    imageUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80',
+    date: 'Dec 12, 2025',
+    readTime: '10 min',
+    tags: ['Work-Life', 'Productivity', 'Remote Work'],
+  },
+  {
+    id: 'burnout-prevention',
+    title: 'Preventing Burnout: A Complete Guide',
+    excerpt: 'Recognize the signs early and build sustainable habits. Your career is a marathon, not a sprint.',
+    content: generateContent('Burnout Prevention'),
+    imageUrl: 'https://images.unsplash.com/photo-1494599948593-3dafe8338d71?w=800&auto=format&fit=crop&q=80',
+    date: 'Dec 5, 2025',
+    readTime: '12 min',
+    tags: ['Work-Life', 'Wellness', 'Mental Health'],
+  },
 ];
