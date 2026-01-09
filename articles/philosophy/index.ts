@@ -2,6 +2,7 @@ import { Article } from '../../types';
 import { courageToBeDislikedArticle } from './courage-to-be-disliked';
 import { mansSearchForMeaningArticle } from './mans-search-for-meaning';
 import { aiSleeperIndustryContent } from './ai-sleeper-industry';
+import { adultJokesContent } from './adult-jokes';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -33,6 +34,16 @@ const generateContent = (topic: string) => `
 `;
 
 export const philosophyArticles: Article[] = [
+  {
+    id: 'adult-jokes-collection',
+    title: 'Eleven Grown-Up Jokes That Will Leave You in Stitches',
+    excerpt: "Proceed at your own risk. These gems are guaranteed to make you laugh until you cry.",
+    content: adultJokesContent,
+    imageUrl: 'https://images.unsplash.com/photo-1527224857830-43a7acc85260?auto=format&fit=crop&q=80',
+    date: 'Jan 4, 2026',
+    readTime: '8 min',
+    tags: ['Humor', 'Comedy', 'Entertainment'],
+  },
   mansSearchForMeaningArticle,
   courageToBeDislikedArticle,
   {

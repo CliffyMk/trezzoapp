@@ -2,6 +2,7 @@ import { Article } from '../../types';
 import { actionTrapArticle } from './action-trap';
 import { fourHourWorkWeekArticle } from './four-hour-work-week';
 import { screenTimeContent } from './screen-time';
+import { systemDesignMasteryContent } from './system-design-mastery';
 
 const generateContent = (topic: string) => `
   <h3 class="text-2xl font-serif font-bold mb-4 mt-8 text-slate-900 dark:text-white">Introduction to ${topic}</h3>
@@ -33,6 +34,16 @@ const generateContent = (topic: string) => `
 `;
 
 export const workLifeArticles: Article[] = [
+  {
+    id: 'system-design-mastery',
+    title: 'The System Design Awakening: Beyond Pattern Matching',
+    excerpt: "What separates engineers who memorize architectures from those who truly understand how to build systems that scale.",
+    content: systemDesignMasteryContent,
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80',
+    date: 'Jan 4, 2026',
+    readTime: '12 min',
+    tags: ['Engineering', 'System Design', 'Career', 'Interview'],
+  },
   {
     id: 'screen-time-research',
     title: "I'm a Psychologist and I Let My Kids Have Screen Time",
